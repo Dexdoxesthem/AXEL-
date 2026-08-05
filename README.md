@@ -96,15 +96,20 @@ npm run build && npm start
 
 ### Deploying to Vercel
 
-`vercel.json` at the repo root tells Vercel the app lives in `frontend/`
-(Next.js auto-detected). Push the repo to GitHub, import it at
-vercel.com/new, then set one environment variable:
+`vercel.json` at the repo root sets the Next.js framework and build commands.
+Because the app lives in `frontend/` (a monorepo), set the project's **Root
+Directory to `frontend`** — this is configured in the Vercel dashboard
+(Project &rarr; Settings &rarr; General &rarr; Root Directory), not in
+`vercel.json` (the `rootDirectory` key is no longer accepted there).
+
+Import the repo at vercel.com/new, then set one environment variable:
 
 | Name           | Value                          |
 |----------------|--------------------------------|
 | `AXEL_PASSWORD`| your secure login password (optional; defaults to `axel123`) |
 
-Or deploy straight from the CLI (`rootDirectory` is applied automatically):
+Or deploy straight from the CLI (run from `frontend/`, or link the project
+and set its Root Directory to `frontend`):
 
 ```powershell
 npx vercel              # preview deployment
