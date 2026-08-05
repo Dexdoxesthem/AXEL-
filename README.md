@@ -14,7 +14,7 @@ and suggests professors for weak subjects.
 | `dashboad.py` | Flask web dashboard (packaged as `dashboad.exe`) |
 | `dashdashboard_app.py` | Dash dashboard |
 | `templates/` | HTML templates used by the Flask app |
-| `sem1 data set.csv`, `sem2 data set.csv` | Semester result data (909 students) |
+| `sem1 data set.csv`, `sem2 data set.csv` | Semester result data (500 students) |
 | `combined_data.csv` | Pre-merged example output |
 | `frontend/` | Next.js web app styled with the Dell 1996 design language |
 | `scripts/export_json.py` | Regenerates `frontend/data/engineered.json` from the pipeline |
