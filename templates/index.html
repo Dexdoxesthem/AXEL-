@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXEL - Student Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            min-height: 100vh;
+        }
+        .container { max-width: 760px; margin: 0 auto; padding: 48px 20px; }
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 14px;
+            padding: 32px;
+        }
+        h1 { margin-top: 0; font-size: 28px; }
+        p.lead { color: #cfd8dc; }
+        label { display: block; margin: 18px 0 8px; font-weight: 600; }
+        select {
+            width: 100%; padding: 12px; border-radius: 8px; border: none;
+            font-size: 16px; background: #0b1622; color: #fff;
+        }
+        button {
+            width: 100%; margin-top: 20px; padding: 12px; border: none;
+            border-radius: 8px; font-size: 16px; font-weight: 700;
+            background: #ff9800; color: #0b1622; cursor: pointer;
+        }
+        button:hover { background: #ffb74d; }
+        .meta { margin-top: 22px; font-size: 13px; color: #cfd8dc; line-height: 1.7; }
+        .nav a { color: #ffb74d; text-decoration: none; font-weight: 600; margin-right: 14px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="nav">
+                <a href="/">Dashboard</a>
+                <a href="/analytics">Analytics</a>
+                <a href="/compare">Compare</a>
+                {% if authed %}<a href="/logout">Logout</a>{% endif %}
+            </div>
+            <h1>AXEL Student Dashboard</h1>
+            {% if authed %}
+                <p class="lead">Select a student ID to view performance, predictions and recommendations.</p>
+                <form method="POST" action="/student">
+                    <label for="student_id">Student ID:</label>
+                    <select id="student_id" name="student_id" required>
+                        {% for sid in student_ids %}
+                        <option value="{{ sid }}">{{ sid }}</option>
+                        {% endfor %}
+                    </select>
+                    <button type="submit">View Dashboard</button>
+                </form>
+                <div class="meta">
+                    <p>{{ metrics.students }} students loaded &middot;
+                        GPA model: <strong>{{ metrics.best_model }}</strong> (R&sup2; {{ metrics.gpa_r2 }} &plusmn; {{ metrics.gpa_r2_std }}, MAE {{ metrics.gpa_mae }}) &middot;
+                        Risk model accuracy: {{ metrics.risk_accuracy }} &plusmn; {{ metrics.risk_accuracy_std }}
+                        ({{ metrics.risk_classes[true] if metrics.risk_classes.get(true) }} at risk / {{ metrics.risk_classes.get(false) }} on track)</p>
+                    <p><a href="/export">Download full dataset (CSV)</a> &middot;
+                        <a href="/report/1">Example PDF report</a></p>
+                </div>
+            {% else %}
+                <p class="lead"><a href="/login">Login</a> to access the dashboard.</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

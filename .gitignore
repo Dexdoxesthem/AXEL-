@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+dashenv/
+dashhenv/
+env/
+myenv/
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Next.js frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env*.local
+npm-debug.log*
+
+# Local artifacts kept on disk but not pushed
+test project student dash board/
+combined_data.csv
+cache/
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXEL - Student Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            min-height: 100vh;
+        }
+        .container { max-width: 980px; margin: 0 auto; padding: 28px 20px; }
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 14px;
+            padding: 22px 28px;
+            margin-bottom: 16px;
+        }
+        h1 { font-size: 24px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-top: 14px; }
+        .stat { background: rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 12px; text-align: center; }
+        .stat .value { font-size: 22px; font-weight: 700; }
+        .stat .label { font-size: 12px; color: #cfd8dc; }
+        .badge-risk { background: #e53935; }
+        .badge-ok { background: #43a047; }
+        .badge { display: inline-block; padding: 5px 14px; border-radius: 20px; font-weight: 700; font-size: 13px; }
+        ul { padding-left: 20px; line-height: 1.8; }
+        .nav a { color: #ffb74d; text-decoration: none; font-weight: 600; margin-right: 14px; }
+        .chart-frame { margin-top: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="nav">
+                <a href="/">Dashboard</a>
+                <a href="/analytics">Analytics</a>
+                <a href="/compare">Compare</a>
+                <a href="/export">Download dataset</a>
+                <a href="/report/{{ student_id }}">PDF report</a>
+                <a href="/logout">Logout</a>
+            </div>
+            <h1>&#128202; Student Performance Dashboard</h1>
+            <p>Student ID: <strong>{{ student_id }}</strong> &middot; Name: <strong>{{ student_name }}</strong></p>
+            <div class="grid">
+                <div class="stat"><div class="value">{{ gpa }}</div><div class="label">GPA (10 scale)</div></div>
+                <div class="stat"><div class="value">{{ attendance }}%</div><div class="label">Attendance</div></div>
+                <div class="stat"><div class="value">{{ predicted_gpa }}</div><div class="label">Predicted GPA</div></div>
+                <div class="stat"><div class="value">{{ gpa_delta }}</div><div class="label">GPA change (S1&#8594;S2)</div></div>
+            </div>
+            <p style="margin-top:16px;">
+                Status:
+                {% if at_risk == "Yes" %}
+                <span class="badge badge-risk">AT RISK</span>
+                {% else %}
+                <span class="badge badge-ok">ON TRACK</span>
+                {% endif %}
+                &nbsp; Improving: <strong>{{ improving }}</strong>
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>&#128202; GPA Trends (interactive)</h3>
+            <div class="chart-frame">{{ chart_html | safe }}</div>
+        </div>
+
+        <div class="card">
+            <h3>&#128218; Recommended Books</h3>
+            <ul>
+                {% for book in recommended_books %}
+                <li>{{ book }}</li>
+                {% else %}
+                <li>No new recommendations.</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>&#129309; Study Group</h3>
+            <ul>
+                {% for member in study_group %}
+                <li>{{ member["student name_sem1"] }} | GPA: {{ member["GPA"] }} | Attendance: {{ member["attendance"] }}%</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>&#127891; Professor Recommendations</h3>
+            <ul>
+                {% for rec in professor_recommendations %}
+                <li>{{ rec }}</li>
+                {% else %}
+                <li>No recommendations available.</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>&#128209; Weakest Subjects</h3>
+            <ul>
+                {% for subject in weakest_subjects %}
+                <li>{{ subject }}</li>
+                {% else %}
+                <li>No weak subjects.</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

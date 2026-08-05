@@ -1,0 +1,24 @@
+{
+  "name": "axel-frontend",
+  "version": "2.0.0",
+  "private": true,
+  "description": "AXEL student performance dashboard - Next.js frontend styled with the Dell 1996 design language",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export:data": "..\\env\\Scripts\\python.exe ..\\scripts\\export_json.py"
+  },
+  "dependencies": {
+    "next": "^14.2.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.13.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.9",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXEL - Compare Students</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            min-height: 100vh;
+        }
+        .container { max-width: 980px; margin: 0 auto; padding: 28px 20px; }
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 14px;
+            padding: 22px 28px;
+            margin-bottom: 16px;
+        }
+        h1 { font-size: 24px; }
+        label { display: block; margin: 14px 0 8px; font-weight: 600; }
+        select { width: 100%; padding: 10px; border-radius: 8px; border: none; background: #0b1622; color: #fff; }
+        button { margin-top: 16px; padding: 10px 24px; border: none; border-radius: 8px; font-weight: 700; background: #ff9800; color: #0b1622; cursor: pointer; }
+        table { border-collapse: collapse; width: 100%; }
+        table th, table td { border: 1px solid rgba(255,255,255,0.2); padding: 8px; text-align: left; }
+        .nav a { color: #ffb74d; text-decoration: none; font-weight: 600; margin-right: 14px; }
+        .ok { color: #81c784; } .bad { color: #ff8a80; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="nav">
+                <a href="/">Dashboard</a>
+                <a href="/analytics">Analytics</a>
+                <a href="/compare">Compare</a>
+                <a href="/export">Download dataset</a>
+                <a href="/logout">Logout</a>
+            </div>
+            <h1>&#128101; Compare Students</h1>
+            <p>Select up to 3 students (hold Ctrl to multi-select).</p>
+            <form method="POST" action="/compare">
+                <label for="sids">Students</label>
+                <select id="sids" name="sids" multiple size="8">
+                    {% for sid in student_ids %}
+                    <option value="{{ sid }}">{{ sid }}</option>
+                    {% endfor %}
+                </select>
+                <button type="submit">Compare</button>
+            </form>
+        </div>
+
+        {% if rows %}
+        <div class="card">
+            <h3>Comparison</h3>
+            <table>
+                <tr>
+                    <th>ID</th><th>Name</th><th>GPA</th><th>Attendance</th><th>Predicted GPA</th><th>At risk</th>
+                </tr>
+                {% for row in rows %}
+                <tr>
+                    <td>{{ row.id }}</td>
+                    <td>{{ row.name }}</td>
+                    <td>{{ row.gpa }}</td>
+                    <td>{{ row.attendance }}%</td>
+                    <td>{{ row.predicted }}</td>
+                    <td>{% if row.at_risk %}<span class="bad">Yes</span>{% else %}<span class="ok">No</span>{% endif %}</td>
+                </tr>
+                {% endfor %}
+            </table>
+            {% if chart_html %}
+            <h3>Side-by-side chart</h3>
+            {{ chart_html | safe }}
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

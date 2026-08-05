@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axel"
+version = "2.0.0"
+description = "NAAC student performance dashboard (Streamlit / Flask / Dash)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=2.2",
+    "scikit-learn>=1.6",
+    "matplotlib>=3.10",
+    "chardet>=5.2",
+    "plotly>=5.24",
+    "joblib>=1.4",
+]
+
+[project.optional-dependencies]
+streamlit = ["streamlit>=1.41"]
+flask = ["Flask>=3.0"]
+dash = ["dash>=2.18", "dash-bootstrap-components>=1.6"]
+dev = ["ruff>=0.16", "pytest>=9.1", "pytest-cov>=6.0"]
+
+[tool.setuptools]
+py-modules = ["core", "config", "utils", "axel", "dashboad", "dashdashboard_app"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = ["build", "dist", "env", "myenv", "dashenv", "dashhenv", "test project student dash board"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

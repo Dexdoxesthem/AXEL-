@@ -1,0 +1,8 @@
+# Development / CI tooling.
+-r requirements.txt
+-r requirements-streamlit.txt
+-r requirements-flask.txt
+-r requirements-dash.txt
+ruff==0.16.1
+pytest==9.1.1
+pytest-cov==6.0.0

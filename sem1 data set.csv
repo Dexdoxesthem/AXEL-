@@ -1,0 +1,910 @@
+student id,student name,  accounting, management,entrpreneurship development,english,constitutional studies,interests,attendence,borrowed book 1,borrowed book 2
+1,ram kumar,45.38,21.91,45.78,25.82,36.7,Health,27,"Management: Tasks, Responsibilities and Practices",
+2,sarain,29.72,42.89,43.66,40.65,24.37,Handwriting,62,"Management: Tasks, Responsibilities and Practices","Management: Tasks, Responsibilities and Practices"
+3,pankaj kumar,75.42,46.06,51.7,42.23,38.68,Language Arts,39,"A Concise Handbook of the Indian Economy in the 21st
+Century",Advanced Accounts
+4,sheak shakir,47.57,38.49,63.33,46.75,44.47,Leadership,56,"A Population History of India : From the First Modern
+People to the Present Day",Fundamental of Financial Accounting
+5,riyasat ali,33.65,63.74,74.26,25.24,23.62,Science,55,A Research on China’s Economic Growth Potential,Risk Management in Finance
+6,vinit katariya,86.79,27.88,61.93,30.62,44.52,Latin,32,Agriculture in Developing Countries : Technology Issues,India Accounting Standards
+7,sumit,50.08,65.11,76.03,25.1,39.99,Trigonometry,36,An Introduction to Econometric Theory,Illustrated Guide to India Accounting Standards
+8,arindra,48.77,32.71,63.03,43.17,27.22,Accounting,68,"Analysing Social Opposition to Reforms : The Electricity
+Sector in India",Company Law and Secretarial Practice.
+9,kali charan,66.39,56.1,53.96,43.07,36.11,Leadership,71,Analytical Political Economy,Guide to Company Law Procedures.
+10,badshya khan,21.17,31.75,36.1,29.22,26.26,Geography,58,"Arthik Sudhar aur Samajik Apvarjan : Bhaarat Mein
+Upekshit Samuhon Par Udareekaran Ka Prabhav",Management Information Systems
+11,vikash,72.73,38.82,60.45,34.39,25.53,Mathematics,73,Ascent and Decline of Native and Colonial Trading,Management Information Systems: Managerial Perspectives
+12,devinder chadda,26.15,49.9,35.93,28.15,44.97,Instrumental Music,54,"Banking and Finance: Theory, Law & Practice",Currency Banking & Exchange
+13,aman,29.51,21.65,69.52,32.93,38.27,American Literature,74,"Beyond Gandhian Economics : Towards a Creative
+Deconstruction",Professional Business Skills 2nd Edition
+14,mohan singh,84.72,37.39,72.85,27.09,35.17,Trigonometry,44,"Beyond Relocation : The Imperative of Sustainable
+Resettlement",Financial Management in Hotels and Restaurant Industry
+15,hemant,72.41,21.2,29.98,30.71,32.74,Leadership,72,Bharat 2050 : Sthayi Samriddhi ki Yojana,Principles of Accounting &Advanced Accounting
+16,Estrella Yard,49.35,56.75,57.53,29.26,35.41,Trigonometry,59,Bharat ki Videsh Neeti : Chunauti aur Ranneeti,Professional Communication Skills
+17,Bryon Bell,80.86,20.36,50.69,29.32,26.94,English IV,53,"Bhartiya Arthavyavsthechi Sankramanavastha : C.T.
+kuriyen yanchya sanmanaarth nibandh",Marketing Management” (Latest Edition)-
+18,Jacob Farrant,35.63,34.9,77.95,40.29,30.88,Resource Program,33,"Bhartiya Arthvyawastha ka Sankaraman Kaal : C T Kurian ke
+Samman mein Nibandh Sankalan","Marketing Management-Concepts and Cases”,"
+19,Luke Robertson,75.62,47.55,66.2,44.63,38.74,Physical Education,36,Business Interests and the Environmental Crisis,Human Resource Management
+20,Kieth Corbett,26.82,39.07,34.97,25.97,22.72,Accounting,69,"Capital Market Reform in Asia : Towards Developed and
+Integrated Markets in Times of Change","Essentials of Financial Accounting,"
+21,Nathan Walker,51.13,45.82,43.67,36.63,29.79,Instrumental Music,81,"Cash, Corruption and Economic Development",Advertising and Promotion Management
+22,Lucas Bradley,82.56,42.48,86.57,29.6,31.76,Physical Education,58,"Caste-Based Reservations and Human Development in
+India",Introduction to Computers
+23,Allison Coll,54.86,60.27,77.25,29.59,24.62,Modern Literature,46,Central Banking in Turbulent Times,"Introduction To Information Technology,"
+24,divya,50.62,33.97,61.44,26.56,26.22,Ancient Civilizations,57,"China and India : History, Culture, Cooperation and
+Competition",Web Commerce Technology Hand Book
+25,mansi,65.78,38.84,37.67,27.51,43.53,English IV,63,Cities and Public Policy : An Urban Agenda for India,IFRS (Red Book).
+26,mazida,44.85,40.64,87.73,28.86,32.46,LOGIC,32,,Brand Management
+27,pooja,62.62,60,79.32,46.42,25.22,Leadership,40,"Contemporary Practices of Mahatma Gandhi National
+Rural Employment Guarantee Scheme : Insights from
+Districts",Training and Development Methods
+28,kajal,66.75,49.41,26.74,29.39,40.77,Resource Program,55,"Contemporary Topics in Finance - A Collection of Literature
+Surveys",Questionnaire Design
+29,meena,40.92,66.17,82.18,45.33,36.36,Music,69,"Corporate Reputation and Social Activism : Strategic
+Interaction, Firm Behavior, and Social Welfare","Corporate Governance (Indian Edition),"
+30,sonam,62.2,45.06,50.21,29.74,41.45,Handwriting,77,Creative Globalization,Fundamentals of Computers
+31,buity,76.08,27.2,64.13,27.32,26.94,Handwriting,85,"Dainik Jeevan Mein Arthshastra : Vikas Ke Kshetra Me
+Karyrat Peshevaron Ke Liye Saral Margdarshika",Information Technology
+32,hina,24.25,25.93,47.26,42.6,26.78,History,73,Dalits in Modern India : Vision and Values,Managerial Economics
+33,Liliana Rosenbloom,24.52,28.86,52.68,36.6,24.1,Economics,25,"Decentralization, Forests and Rural Communities : Policy
+Outcomes in Southeast Asia",Quantitative Methods for Business
+34,Rocco Mills,86.59,21.24,35.85,40.61,28.08,Health,75,"Democratizing Development :
+Social Justice in India",Cost Accounting
+35,Hope Mullins,77.38,64.11,58.55,30.72,39.17,Language Arts,84,Demonetisation : A means to an End?,
+36,Clarissa Edmonds,23.01,41.08,52.47,39.66,38.03,English IV,82,Development and Distribution,LIST OF BOOKS FOR DEPARTMENT OF COMMERCE
+37,Cedrick Hopkinson,32.09,27.94,39.3,42.82,24.37,Language Arts,51,"Development Under Stress : Sri Lankan Economy in
+Transition",NAME OF BOOK
+38,Deborah Willson,75.87,44.79,26.2,37.33,35.61,Geography,63,Developmentalism as Strategy,Ethics and the Conduct of Business
+39,Keira Smith,63.91,57.75,66.8,37.69,20.79,American Literature,21,"Diminishing Returns at Work : The Consequences of Long
+Working Hours",Business management
+40,Johnathan Tennant,77.08,36.16,51.41,44.88,32.55,Language Arts,44,Econometric Analysis: International Edition,Management
+41,Vicky Broomfield,51.55,62.25,71.6,29.26,34.99,Trigonometry,30,Economic Democracy through Pro Poor Growth,Principles and Practice of Management
+42,Cadence Carpenter,79.72,51.49,57.33,36.55,26.9,Earth Science,82,"Economic Growth with Social Justice : Collected Writings of
+Mahbub ul Haq",Fundamentals of Corporate Accounting
+43,Johnny Alexander,46.23,20.96,83.7,30.46,42.89,Instrumental Music,76,"Economic Reforms in India and China : Emerging Issues and
+Challenges",Advanced Accounts
+44,Angelique Robinson,53.34,45.17,70.73,25.8,42.26,Sociology,71,"Economics in Action : An Easy Guide for Development
+Practitioners",Financial Accounting
+45,Denny Grey,38.97,53.56,42.44,45.36,44.66,English IV,30,Embodying Integral Development : A Holistic Approach,Advanced Accounting
+46,Josh Antcliff,75.76,52.41,43.92,26.93,29.39,Physical Education,67,Title,The Principles of Mercantile Law
+47,Samantha Russell,43.74,56.34,47.33,29.94,25.24,Instrumental Music,24,"A Concise Handbook of the Indian Economy in the 21st
+Century",Introduction to Accounting
+48,Tess Robertson,44.88,59.73,78.63,47.14,34.78,Music,72,"A Population History of India : From the First Modern
+People to the Present Day",Cost Accounting
+49,Judith Vince,61.29,25.69,71.28,25.25,42,Speech,46,A Research on China’s Economic Growth Potential,Cost Accounting
+50,Barry Gibbons,58.44,48.68,38.93,38.49,34.72,Language Arts,62,Agriculture in Developing Countries : Technology Issues,Principles of Company Law.
+51,Andrea Martin,31.99,22.91,56.84,32.91,23.13,LOGIC,52,An Introduction to Econometric Theory,Working in Microsoft office
+52,Penelope Uttley,88.82,24.28,51.13,38.13,24.6,Science,76,"Analysing Social Opposition to Reforms : The Electricity
+Sector in India",Personal Management and Human Resources
+53,Abdul Rodwell,69.39,64.63,68.83,26.9,43.73,Geography,45,Analytical Political Economy,An Introduction to Accountancy
+54,Kassandra Edley,41.46,58.8,78.48,36.75,35.47,Health,57,"Arthik Sudhar aur Samajik Apvarjan : Bhaarat Mein
+Upekshit Samuhon Par Udareekaran Ka Prabhav",: Management Accounting
+55,Rick Quinton,75.46,53.58,30.21,29.75,24.24,Language Arts,41,Ascent and Decline of Native and Colonial Trading,"Basic Marketing Concepts, Decisions and Strategy"
+56,Ember Spencer,80.36,29.04,63.93,43.72,39.42,Geography,45,"Banking and Finance: Theory, Law & Practice",Fundamentals of Marketing
+57,Benjamin Asher,72.46,65.22,38.03,27.48,20.5,Music,43,"Beyond Gandhian Economics : Towards a Creative
+Deconstruction",Fundamentals of Statistics
+58,Juliette Pearson,38.57,22.55,53.41,45.27,26.63,LOGIC,56,"Beyond Relocation : The Imperative of Sustainable
+Resettlement",Business Law
+59,Wade Spencer,66.27,44.8,62.21,47.73,27.52,Geography,79,Bharat 2050 : Sthayi Samriddhi ki Yojana,Cost Accounting
+60,Wendy Antcliff,42.7,56.29,54.26,35.22,29.52,Resource Program,67,Bharat ki Videsh Neeti : Chunauti aur Ranneeti,Management Accounting.
+61,Savannah Vaughan,33.33,37.52,76.01,43.77,44.49,Accounting,64,"Bhartiya Arthavyavsthechi Sankramanavastha : C.T.
+kuriyen yanchya sanmanaarth nibandh",Methodology and Techniques of Social Research
+62,Destiny Oswald,39.54,43.46,52.47,46.57,41.57,Science,24,"Bhartiya Arthvyawastha ka Sankaraman Kaal : C T Kurian ke
+Samman mein Nibandh Sankalan",Research Methodology
+63,Martin Yang,82.98,66.38,31.5,37.96,24.55,Sociology,45,Business Interests and the Environmental Crisis,"Corporate Governance, Business Ethics, and CSR,"
+64,Harry Nash,68.26,47.2,69.91,46.82,20.37,Grammar,41,"Capital Market Reform in Asia : Towards Developed and
+Integrated Markets in Times of Change",Business Economics
+65,Adeline Myatt,51.79,34.85,48.35,44.02,33.35,American Literature,33,"Cash, Corruption and Economic Development",
+66,Rosalee Middleton,46.94,33.44,81.39,44.61,20.02,History,76,"Caste-Based Reservations and Human Development in
+India",LIST OF BOOKS FOR DEPARTMENT OF COMMERCE- Reference
+67,Clint Bloom,84.59,48.48,86.93,36.38,26.34,Trigonometry,22,"Employment and Labour Market in Northeast India:
+Interrogating Structural Changes",NAME OF BOOK
+68,Chanelle Phillips,70.21,22.62,83.61,35.1,22.35,Language Arts,65,"Employment and Unemployment in India : Emerging
+Tendencies During the Post-Reform Period","Management: Tasks, Responsibilities and Practices"
+69,Angelina Walton,73.27,47.65,78.77,26.93,38.67,Leadership,58,"Environment and Development : Essays in Honour of Dr U.
+Sankar",Advanced Accounts
+70,Alex Walsh,67.93,59.64,69.18,45.79,44.65,Instrumental Music,37,Environment and Fiscal Reforms in India,Fundamental of Financial Accounting
+71,Selena Hooper,53.24,54.8,36.67,38.98,39.96,Ancient Civilizations,77,"Environmental Accounting, Sustainability and
+Accountability",Risk Management in Finance
+72,Oliver May,51.38,44.84,75.44,34.17,32.11,Economics,37,Environmental Economics and Sustainability,India Accounting Standards
+73,Doug Saunders,40.93,60.92,32.24,35.52,43.32,Spanish,47,Essential Mathematics for Economic Analysis,Illustrated Guide to India Accounting Standards
+74,Lorraine Haines,31.87,31.77,61.07,32.59,23.97,American Literature,38,Evolution of Banking System in India since 1900,Company Law and Secretarial Practice.
+75,Jack Phillips,70.62,36.61,70.61,40.83,23.48,Instrumental Music,22,"Finance and Financial Intermediation : A Modern
+Treatment of Money, Credit, and Banking",Guide to Company Law Procedures.
+76,Chadwick Sawyer,49.19,65.63,27.7,47.64,41.7,Art,82,"Financial Intermediation in a Less Developed Economy :
+The History of the United Bank of India
+Financing Cities : Fiscal Responsibility and Urban",Management Information Systems
+77,Selena Bailey,73.87,58.91,76.12,43.33,44.28,Physical Education,81,"Infrastructure in Brazil, China, India, Poland and South
+Africa",Management Information Systems: Managerial Perspectives
+78,William Morley,71.77,65.21,70.4,28.96,20.49,German,47,"Fiscal Consolidation, Budget Deficits and the Macro
+Economy",Currency Banking & Exchange
+79,Johnny Glynn,72.64,49.81,86.96,26.25,36.9,Earth Science,56,"Fiscal Therapy : Curing America's Debt Addiction and
+Investing in the Future",Professional Business Skills 2nd Edition
+80,Chester Terry,34.67,28.25,68.66,45.1,38.78,Sociology,35,Food Security in Asia,Financial Management in Hotels and Restaurant Industry
+81,Benny Gordon,78.3,55.08,75.7,38.33,36.64,Resource Program,81,Formal Labour Market in Urban India,Principles of Accounting &Advanced Accounting
+82,Josephine Ingham,26.06,50.47,40.04,42.35,27.92,Modern Literature,30,"Game Theory Approach to Managerial Strategies and
+Value Creation",Professional Communication Skills
+83,Maxwell Wilde,82.84,49.72,49.23,34.37,23.49,Physical Education,28,"Global Algorithmic Capital Markets : High Frequency
+Trading, Dark Pools, and Regulatory Challenges",Marketing Management” (Latest Edition)-
+84,Luna Thomas,20.54,40.6,48.39,25.68,23.72,Art,72,Globalization : India's Adjustment Experience,"Marketing Management-Concepts and Cases”,"
+85,Henry Payne,88.81,20.13,57.9,34.82,20.1,Health,73,"Globalization and Indigenous Peoples in Asia : Changing
+the Local-Global Interface",Human Resource Management
+86,Barney Oliver,82.15,21.8,57.87,32.78,32.46,Music,30,"Globalization of Legal Services and Regulatory Reforms :
+Perspectives and Dynamics from India","Essentials of Financial Accounting,"
+87,Phillip Snow,68.91,54.87,34.89,33.34,31.31,Latin,53,"Grameen Vikas : Siddhant, Neetiyan evam Prabandh",Advertising and Promotion Management
+88,Hope Harrison,55.32,64.31,43.29,42.99,37.2,Handwriting,28,"Groundwater Management in India : Physical, Institutional
+and Policy Alternatives",Introduction to Computers
+89,Gwen Mullins,41.56,60.69,40.2,27.11,29.82,Design and technology,40,Central Banking in Turbulent Times,"Introduction To Information Technology,"
+90,Bryon Styles,67.71,60.86,51.14,30.17,33.98,French,40,"China and India : History, Culture, Cooperation and
+Competition",Web Commerce Technology Hand Book
+91,Nick Hunter,34.53,60.93,71.17,25.9,31.26,Mathematics,32,Cities and Public Policy : An Urban Agenda for India,IFRS (Red Book).
+92,Gil Goodman,85.1,39.09,86.2,31.98,28.16,Instrumental Music,28,,Brand Management
+93,Davina Johnson,21.86,28.88,72.41,45.85,44.98,Economics,37,"Contemporary Practices of Mahatma Gandhi National
+Rural Employment Guarantee Scheme : Insights from
+Districts",Training and Development Methods
+94,Michael Healy,36.59,42.17,29.84,30.44,34.43,Ancient Civilizations,71,"Contemporary Topics in Finance - A Collection of Literature
+Surveys",Questionnaire Design
+95,Francesca Bullock,32.68,26.69,38.88,45.62,22.51,Ecology,53,"Corporate Reputation and Social Activism : Strategic
+Interaction, Firm Behavior, and Social Welfare","Corporate Governance (Indian Edition),"
+96,Vera Flack,28.42,48.79,67.52,42.76,37.62,Latin,78,Creative Globalization,Fundamentals of Computers
+97,Celia Stanton,38.75,42.48,25.67,40.3,40.8,Latin,37,"Dainik Jeevan Mein Arthshastra : Vikas Ke Kshetra Me
+Karyrat Peshevaron Ke Liye Saral Margdarshika",Information Technology
+98,Karen Gosling,54.96,51.42,46.13,32.17,40.62,Dramatics,64,Dalits in Modern India : Vision and Values,Managerial Economics
+99,Camellia Drew,88.52,54.09,86.29,32.34,21.03,Speech,73,"Decentralization, Forests and Rural Communities : Policy
+Outcomes in Southeast Asia",Quantitative Methods for Business
+100,Makena Sloan,59.8,59,64.13,30.73,43.54,Grammar,21,"Democratizing Development :
+Social Justice in India",Cost Accounting
+101,John Corbett,83.85,62.11,37.27,32.31,21.87,Health,85,Demonetisation : A means to an End?,
+102,Quinn Smith,83.63,56.5,70.48,38.02,39.59,Music,80,Development and Distribution,LIST OF BOOKS FOR DEPARTMENT OF COMMERCE
+103,Chester Torres,59.18,34.18,25.24,34.19,23.54,Speech,55,"Development Under Stress : Sri Lankan Economy in
+Transition",NAME OF BOOK
+104,Cassidy Wilson,70.97,35,80.08,43.32,39.28,Geography,74,Developmentalism as Strategy,Ethics and the Conduct of Business
+105,Erica Rowan,24.29,59.85,31.05,42.9,33.51,Dramatics,66,"Diminishing Returns at Work : The Consequences of Long
+Working Hours",Business management
+106,Joseph Eddison,53.23,61.56,86.33,31.82,27.29,Economics,67,Econometric Analysis: International Edition,Management
+107,Leanne Rees,48.03,25.22,71.51,28.86,37.78,Modern Literature,60,Economic Democracy through Pro Poor Growth,Principles and Practice of Management
+108,Clint Waterhouse,48.8,38.83,45.09,44.54,30.5,Resource Program,62,"Economic Growth with Social Justice : Collected Writings of
+Mahbub ul Haq",Fundamentals of Corporate Accounting
+109,Oliver Graves,20.54,37.03,64.51,36.53,29.39,Music,54,"Economic Reforms in India and China : Emerging Issues and
+Challenges",Advanced Accounts
+110,Logan Jeffery,55.08,45.5,76.46,34.48,42.65,Language Arts,24,"Economics in Action : An Easy Guide for Development
+Practitioners",Financial Accounting
+111,Taylor Reid,61.62,38.54,82.9,44.17,30.01,LOGIC,58,Embodying Integral Development : A Holistic Approach,Advanced Accounting
+112,Callie Boyle,48.01,45.08,56.21,25.34,44.33,Mathematics,71,"Growth and Development in Emerging Market Economies :
+International Private Capital Flow, Financial Markets and
+Globalization",The Principles of Mercantile Law
+113,Elly Blackwall,64.72,33.25,31.63,46.77,20.75,English IV,43,GST and Its Aftermath : Is consumer really the King ?,Introduction to Accounting
+114,Enoch Stone ,65.51,51.79,32.54,26.88,23.67,LOGIC,24,"How Lives Change : Palanpur, India, and Development
+Economics",Cost Accounting
+115,Judith Wilson,63.06,27.75,30.33,36.7,38.6,Design and technology,58,How to Combat Recession : Stimulus without Debt,Cost Accounting
+116,Adalie Griffiths,20.78,55.81,52.67,40.47,37.59,Modern Literature,29,Human Development in an Unequal World,Principles of Company Law.
+117,Julianna Matthews,61.61,38.9,75.66,28.94,34.59,Trigonometry,43,"Inclusive Economics : Gandhian Method and
+Contemporary Policy",Working in Microsoft office
+118,Rocco Exton,74.05,62.4,63.42,45.34,43.05,Grammar,57,"Inclusive Innovation for Development : Meeting the
+Demands of Justice through Public Action",Personal Management and Human Resources
+119,Harry Khan,45.58,54.8,80.76,27.11,25.01,Design and technology,51,India Macroeconomics Annual 2006,An Introduction to Accountancy
+120,Rufus Milner,32.14,29.98,79.71,40.64,37.64,Health,20,India Macroeconomics Annual 2009,: Management Accounting
+121,Jackeline Hudson,66.34,26.62,29.97,38.01,41.81,Dramatics,44,Indian Economy: A Macro-theoretic Analysis,"Basic Marketing Concepts, Decisions and Strategy"
+122,Violet Bristow,77.87,42.31,83.81,28.79,41.79,Basic Math,54,Indian Microfinance : The Challenges of Rapid Growth,Fundamentals of Marketing
+123,Chris Selby,80.08,25.84,80.85,35.87,41.32,Sociology,69,"India's Economy and Growth : Essays in Honour of V K R V
+Rao",Fundamentals of Statistics
+124,Aiden Miller,38.39,39.77,78.01,43.83,24.37,Leadership,39,India's Financial Sector : An Era of Reforms,Business Law
+125,Margot Doherty,53.35,34.19,55.83,28.8,37.74,Sociology,66,India's Liberalisation Experience : Hostage to WTO?,Cost Accounting
+126,Megan Morrison,20.14,25.37,45.98,37.47,29.55,Modern Literature,31,"India's Long-Term Growth Experience : Lessons and
+Prospects",Management Accounting.
+127,Iris Gates,81.75,54.79,73.55,33.52,20.02,Modern Literature,73,"Industrial Development and Displacement : The People of
+Korba",Methodology and Techniques of Social Research
+128,Gabriel Ebbs,67.66,47.83,74.83,44.03,26.75,Grammar,39,Industrial Economics and Telecommunication Regulations,Research Methodology
+129,Freya Moore,86.75,27.01,82.1,45.95,20.41,History,31,"Industrial Restructuring in Asia : Implications of the Global
+Economic Crisis","Corporate Governance, Business Ethics, and CSR,"
+130,Logan Griffiths,28.08,34.65,85.06,42.73,44.21,Health,78,"Informal Economy Centrestage : New Structures of
+Employment",Business Economics
+131,Elijah Wild,53.97,21.64,37.37,37.28,41.05,Grammar,77,"Innovation Driven Institutional Research : Towards Integral
+Development","Management: Tasks, Responsibilities and Practices"
+132,Benny Bingham,63.15,47.09,41.35,45.18,31.11,German,67,"International Economics: Theory and Policy, Global Edition","Management: Tasks, Responsibilities and Practices"
+133,Sebastian Snow,72.94,35.79,82.04,35.06,29.62,Ecology,25,International Trade : The Basics,"A Concise Handbook of the Indian Economy in the 21st
+Century"
+134,Bethany Harvey,34.26,62.03,56.02,27.83,36.61,LOGIC,68,"Employment and Labour Market in Northeast India:
+Interrogating Structural Changes","A Population History of India : From the First Modern
+People to the Present Day"
+135,Louise Rothwell,56.92,42.89,32.33,36.93,38.97,Handwriting,68,"Employment and Unemployment in India : Emerging
+Tendencies During the Post-Reform Period",A Research on China’s Economic Growth Potential
+136,Jayden Purvis,73.95,48.03,53.06,47.18,25.13,Instrumental Music,60,"Environment and Development : Essays in Honour of Dr U.
+Sankar",Agriculture in Developing Countries : Technology Issues
+137,Tony Wilson,40.71,65.04,30.16,37.46,23.6,Leadership,64,Environment and Fiscal Reforms in India,An Introduction to Econometric Theory
+138,Noemi Coates,56.91,20.96,72.53,26.69,20.82,Ancient Civilizations,32,"Environmental Accounting, Sustainability and
+Accountability","Analysing Social Opposition to Reforms : The Electricity
+Sector in India"
+139,Bryon Devonport,68.34,23.9,38.58,39.02,20.98,Physical Education,58,Environmental Economics and Sustainability,Analytical Political Economy
+140,William Ellis,74.99,64.86,71.69,39.31,23.85,Economics,24,Essential Mathematics for Economic Analysis,"Arthik Sudhar aur Samajik Apvarjan : Bhaarat Mein
+Upekshit Samuhon Par Udareekaran Ka Prabhav"
+141,Liam Hancock,68.12,50.2,78.19,42.81,33.2,Mathematics,47,Evolution of Banking System in India since 1900,Ascent and Decline of Native and Colonial Trading
+142,Owen Lomax,80.02,45.62,56.75,45.02,42.55,German,82,"Finance and Financial Intermediation : A Modern
+Treatment of Money, Credit, and Banking","Banking and Finance: Theory, Law & Practice"
+143,Johnathan Wilton,34.23,39.6,69.03,32.91,28.24,Music,34,"Financial Intermediation in a Less Developed Economy :
+The History of the United Bank of India
+Financing Cities : Fiscal Responsibility and Urban","Beyond Gandhian Economics : Towards a Creative
+Deconstruction"
+144,George Simpson,52.73,43.96,27.13,34.11,28.87,Leadership,29,"Infrastructure in Brazil, China, India, Poland and South
+Africa","Beyond Relocation : The Imperative of Sustainable
+Resettlement"
+145,Danny Stevens,36.08,21.19,56.36,38.29,39.77,Geography,81,"Fiscal Consolidation, Budget Deficits and the Macro
+Economy",Bharat 2050 : Sthayi Samriddhi ki Yojana
+146,shaswata pal,65.29,35.65,37.92,37.15,21.2,music,73,"Fiscal Therapy : Curing America's Debt Addiction and
+Investing in the Future",Bharat ki Videsh Neeti : Chunauti aur Ranneeti
+147,Doug Bloom,82.55,43.57,45.63,40.27,24.1,English IV,68,Food Security in Asia,"Bhartiya Arthavyavsthechi Sankramanavastha : C.T.
+kuriyen yanchya sanmanaarth nibandh"
+148,Sylvia Swift,85.71,63.43,84.46,35.03,33.46,Design and technology,52,Formal Labour Market in Urban India,"Bhartiya Arthvyawastha ka Sankaraman Kaal : C T Kurian ke
+Samman mein Nibandh Sankalan"
+149,Bridget Price,20.85,48.92,50.52,33.24,26.49,Music,65,"Game Theory Approach to Managerial Strategies and
+Value Creation",Business Interests and the Environmental Crisis
+150,Adela Evans,26.22,35,59.37,29.35,27.17,Speech,48,"Global Algorithmic Capital Markets : High Frequency
+Trading, Dark Pools, and Regulatory Challenges","Capital Market Reform in Asia : Towards Developed and
+Integrated Markets in Times of Change"
+151,Martin Rose,20.04,50.54,55.6,31.35,32.43,Instrumental Music,60,Globalization : India's Adjustment Experience,"Cash, Corruption and Economic Development"
+152,Hayden Graham,49.41,27.35,36.06,46.32,24.93,History,48,"Globalization and Indigenous Peoples in Asia : Changing
+the Local-Global Interface","Caste-Based Reservations and Human Development in
+India"
+153,Michaela Adler,58.42,33.89,81.51,30.24,41.75,Leadership,63,"Globalization of Legal Services and Regulatory Reforms :
+Perspectives and Dynamics from India",Central Banking in Turbulent Times
+154,Lucy Bowen,68.86,29.69,62.51,46.88,20.28,Basic Math,25,"Grameen Vikas : Siddhant, Neetiyan evam Prabandh","China and India : History, Culture, Cooperation and
+Competition"
+155,Tom Shields,80.71,33.71,71.6,43.1,23.91,Art,77,"Groundwater Management in India : Physical, Institutional
+and Policy Alternatives",Cities and Public Policy : An Urban Agenda for India
+156,Peter Gilbert,58.4,32.48,84.19,39.3,38.56,Sociology,31,"Job Creation and Poverty Reduction in India : Towards
+Rapid and Sustained Growth",
+157,Matthew Paterson,47,46.3,61.55,33.14,31.38,Latin,37,"Jumpstarting South Asia : Revisiting Economic Reforms and
+Look East Policies","Contemporary Practices of Mahatma Gandhi National
+Rural Employment Guarantee Scheme : Insights from
+Districts"
+158,Tom Rossi,69.28,54.3,27.72,32.62,20.84,Speech,52,Land Policies for Equity and Growth : Transforming the,"Contemporary Topics in Finance - A Collection of Literature
+Surveys"
+159,Leilani Purvis,87.72,44.36,79.13,41.14,28.68,Accounting,71,Agrarian Structure in Uttar Pradesh,"Corporate Reputation and Social Activism : Strategic
+Interaction, Firm Behavior, and Social Welfare"
+160,Rocco Overson,85.88,44.4,40.01,38.45,41.89,Basic Math,69,Land Reforms in India : Computerisation of Land Records,Creative Globalization
+161,Erin Healy,87.72,51.81,55.8,28.74,41.6,Health,35,"Lectures in Macroeconomics : A Capitalist Economy
+Without Unemployment","Dainik Jeevan Mein Arthshastra : Vikas Ke Kshetra Me
+Karyrat Peshevaron Ke Liye Saral Margdarshika"
+162,Emmanuelle Speed,84.03,48.11,82.9,40.14,28.25,French,77,"Macroeconomic Policies for Emerging and Developing
+Economies",Dalits in Modern India : Vision and Values
+163,Ramon Malone,80.62,21.84,75.92,28.64,20.9,Physical Education,76,Macroeconomics,"Decentralization, Forests and Rural Communities : Policy
+Outcomes in Southeast Asia"
+164,Brad Eagle,20.92,55.42,32.02,37.82,27.22,Leadership,26,Macroeconomics : Theories & Policies,"Democratizing Development :
+Social Justice in India"
+165,Percy Walton,47.4,34.41,77.64,44.25,34.83,Modern Literature,65,"Macroeconomics Simplified : Understanding Keynesian and
+Neoclassical Macroeconomic Systems",Demonetisation : A means to an End?
+166,Lillian Cattell,20.69,51.87,65.46,28.41,32.1,Latin,83,"Macroeconomics, Global Edition",Development and Distribution
+167,Kieth Hamilton,41.81,54.33,76.32,30.63,35.04,Sociology,82,Macroeconomics: Pearson New International Edition,"Development Under Stress : Sri Lankan Economy in
+Transition"
+168,Nate Gunn,43.9,38.14,63.23,43.62,34.25,Instrumental Music,49,"Making Growth Happen in India : A Road Map for Policy
+Success",Developmentalism as Strategy
+169,Danny Saunders,80.2,42.85,66.82,46.76,22.7,German,24,Managerial Economics,"Diminishing Returns at Work : The Consequences of Long
+Working Hours"
+170,Deborah Gray,26.61,51.01,32.37,26.62,37.81,English IV,58,Managerial Economics,Econometric Analysis: International Edition
+171,Alan Mooney,37.47,45.16,64.26,42.4,34.36,Art,23,Managerial Economics,Economic Democracy through Pro Poor Growth
+172,Rocco Saunders,74.68,66.51,36.44,37.95,34.8,French,54,Managerial Economics,"Economic Growth with Social Justice : Collected Writings of
+Mahbub ul Haq"
+173,Daniel Page ,53.65,43.88,62.23,36.64,24.01,Economics,68,"Micro-Credit, Poverty and Empowerment : Linking the
+Triad","Economic Reforms in India and China : Emerging Issues and
+Challenges"
+174,Adina Cork,22.31,21.6,59.49,44.03,41.85,Dramatics,38,Microeconomics: An Advanced Treatise,"Economics in Action : An Easy Guide for Development
+Practitioners"
+175,Ethan Redfern,81.72,50.29,46.49,46.93,41.09,Latin,61,Modern Banking,Embodying Integral Development : A Holistic Approach
+176,Moira Murphy,54.95,21.39,76.84,46.28,39.93,Grammar,64,Money and Banking,Title
+177,Tyson Parsons,75.65,34.78,28.22,42.46,29.19,Economics,52,Muslims in Indian Labour Market,"A Concise Handbook of the Indian Economy in the 21st
+Century"
+178,Abdul Terry,50.95,51.95,52.68,37.9,40.19,Art,34,Panel Data Econometrics with R,"A Population History of India : From the First Modern
+People to the Present Day"
+179,Nina James,86.71,44.92,29.48,27.22,39.17,French,66,"Growth and Development in Emerging Market Economies :
+International Private Capital Flow, Financial Markets and
+Globalization",A Research on China’s Economic Growth Potential
+180,Taylor Brett,59.85,64.66,29.81,44.81,26.84,Art,57,GST and Its Aftermath : Is consumer really the King ?,Agriculture in Developing Countries : Technology Issues
+181,Bethany Waterson,77.11,57.72,78.13,36.67,37.54,Geography,44,"How Lives Change : Palanpur, India, and Development
+Economics",An Introduction to Econometric Theory
+182,Ramon Bullock,30.49,39.59,42.48,32.96,26.33,History,78,How to Combat Recession : Stimulus without Debt,"Analysing Social Opposition to Reforms : The Electricity
+Sector in India"
+183,Remy Nobbs,50.66,64.33,61.21,33.69,29.82,Handwriting,32,Human Development in an Unequal World,Analytical Political Economy
+184,Jazmin Grey,31.39,48.8,77.61,40.79,30.4,Economics,66,"Inclusive Economics : Gandhian Method and
+Contemporary Policy","Arthik Sudhar aur Samajik Apvarjan : Bhaarat Mein
+Upekshit Samuhon Par Udareekaran Ka Prabhav"
+185,Logan Lane,78.46,42.26,47.35,30.02,35.74,Accounting,29,"Inclusive Innovation for Development : Meeting the
+Demands of Justice through Public Action",Ascent and Decline of Native and Colonial Trading
+186,Felicity Ebbs,27.59,48,84.42,43.87,38.46,Language Arts,57,India Macroeconomics Annual 2006,"Banking and Finance: Theory, Law & Practice"
+187,Jamie Turner,35.53,61.14,64.5,44.93,28.74,Design and technology,37,India Macroeconomics Annual 2009,"Beyond Gandhian Economics : Towards a Creative
+Deconstruction"
+188,Ron Jordan,73.85,23.04,74.19,40.85,40.46,Ecology,66,Indian Economy: A Macro-theoretic Analysis,"Beyond Relocation : The Imperative of Sustainable
+Resettlement"
+189,Barney Beal,70,44.18,80.58,43.09,41.58,German,56,Indian Microfinance : The Challenges of Rapid Growth,Bharat 2050 : Sthayi Samriddhi ki Yojana
+190,Miriam Shaw,35.85,23.73,72.64,27.89,29.72,Ancient Civilizations,84,"India's Economy and Growth : Essays in Honour of V K R V
+Rao",Bharat ki Videsh Neeti : Chunauti aur Ranneeti
+191,Stella Martin,69.41,50.45,51.87,29.36,25.75,English IV,73,India's Financial Sector : An Era of Reforms,"Bhartiya Arthavyavsthechi Sankramanavastha : C.T.
+kuriyen yanchya sanmanaarth nibandh"
+192,Denny Phillips,87.5,62.43,61.5,39.95,29.76,Ancient Civilizations,35,India's Liberalisation Experience : Hostage to WTO?,"Bhartiya Arthvyawastha ka Sankaraman Kaal : C T Kurian ke
+Samman mein Nibandh Sankalan"
+193,Liam Savage,62.79,56.57,64.4,33.46,43.7,Design and technology,62,"India's Long-Term Growth Experience : Lessons and
+Prospects",Business Interests and the Environmental Crisis
+194,Eileen Ballard,62.32,38.66,43.41,46.88,40.98,Accounting,68,"Industrial Development and Displacement : The People of
+Korba","Capital Market Reform in Asia : Towards Developed and
+Integrated Markets in Times of Change"
+195,Enoch Whitmore,21.88,21.96,25.38,42.45,44.77,Economics,54,Industrial Economics and Telecommunication Regulations,"Cash, Corruption and Economic Development"
+196,Jaylene Moreno,59.18,43.81,59.74,32.06,29.76,German,21,"Industrial Restructuring in Asia : Implications of the Global
+Economic Crisis","Caste-Based Reservations and Human Development in
+India"
+197,Piper Upsdell,85.79,60.16,65.6,35.06,36.96,Language Arts,31,"Informal Economy Centrestage : New Structures of
+Employment","Employment and Labour Market in Northeast India:
+Interrogating Structural Changes"
+198,Carl Mcnally,43.62,29.33,31.41,32.66,32.91,Design and technology,34,"Innovation Driven Institutional Research : Towards Integral
+Development","Employment and Unemployment in India : Emerging
+Tendencies During the Post-Reform Period"
+199,Jack Adams,54.27,58.54,55.01,36.2,42.31,Basic Math,49,"International Economics: Theory and Policy, Global Edition","Environment and Development : Essays in Honour of Dr U.
+Sankar"
+200,Henry Lomax,55.54,22.95,64.17,41.75,34.84,English IV,29,International Trade : The Basics,Environment and Fiscal Reforms in India
+201,Faith Cattell,41.94,30.61,35.48,37.4,24.21,Leadership,82,"Planning and Economics of Cities : Shaping Indias Form and
+Future","Environmental Accounting, Sustainability and
+Accountability"
+202,Carmella Tailor,68.88,20.37,46.8,28.95,41.98,Ancient Civilizations,74,"Political Economy of Poverty Eradication in India and
+Essays on Fiscal Reform",Environmental Economics and Sustainability
+203,Alan Kennedy,68.96,28.98,62.21,45.98,22.72,Earth Science,25,Principles and Systems of Banking,Essential Mathematics for Economic Analysis
+204,Cassandra Rogan,45.85,60.51,57.59,26.69,40.99,German,24,Progressive Fiscal Policy in India,Evolution of Banking System in India since 1900
+205,Marvin Jarvis,26.25,29.9,40.8,40.2,20.12,French,42,"Right to Work and Rural India : Working of the Mahatma
+Gandhi National Rural Employment Guarantee Scheme
+(MGNREGS)","Finance and Financial Intermediation : A Modern
+Treatment of Money, Credit, and Banking"
+206,Elisabeth Eddison,75.29,58.74,78.03,38.99,23.9,Grammar,72,Risk and Liquidity,"Financial Intermediation in a Less Developed Economy :
+The History of the United Bank of India
+Financing Cities : Fiscal Responsibility and Urban"
+207,Fred Baker,29.19,59.96,29.53,45.84,32.66,English IV,70,"Schaum’s Outline of Introduction to Mathematical
+Economics","Infrastructure in Brazil, China, India, Poland and South
+Africa"
+208,Luke Miller,77.72,67.05,46.32,45.54,24.41,Instrumental Music,43,Schaum's Easy Outline of Principles of Economics,"Fiscal Consolidation, Budget Deficits and the Macro
+Economy"
+209,Bryce Campbell,27.3,26.6,30.68,26.84,27.56,Ancient Civilizations,31,Schaum's Easy Outlines: Mathematical Economics,"Fiscal Therapy : Curing America's Debt Addiction and
+Investing in the Future"
+210,Melanie Horton,73.15,38.67,64.4,28.42,42.71,Basic Math,43,"Schaum's Outline of Mathematical Methods for Business
+and Economics",Food Security in Asia
+211,Sage Evans,20.42,28.95,72.79,41.22,33.76,Geography,40,Schaum's Outline of Microeconomics,Formal Labour Market in Urban India
+212,Aeris Powell,49.42,51.63,55.92,42.03,20.13,Ecology,70,Schaum's Outline of Statistics and Econometrics,"Game Theory Approach to Managerial Strategies and
+Value Creation"
+213,Eduardo Phillips,46.42,34.7,60.47,44.88,29.45,Latin,29,"Social Accounting Matrix for India : Concepts, Construction
+and Applications","Global Algorithmic Capital Markets : High Frequency
+Trading, Dark Pools, and Regulatory Challenges"
+214,Alan Cameron,63.63,47.87,43.18,47.5,21.68,Spanish,81,Social Economy of Development in India,Globalization : India's Adjustment Experience
+215,Alexander Cassidy,47.04,41.36,79.04,44.1,31.39,Sociology,75,Strategic Credit Management in Banks,"Globalization and Indigenous Peoples in Asia : Changing
+the Local-Global Interface"
+216,Chester Amstead,21.21,51.43,68.21,34.39,33.63,Leadership,71,"Strategies for Achieving Sustained High Economic Growth :
+The Case of Indian States","Globalization of Legal Services and Regulatory Reforms :
+Perspectives and Dynamics from India"
+217,Isla Eyres,44.62,57.35,65.85,36.36,44.61,Sociology,66,"The Community of Advantage : A Behavioural Economist's
+Defence of the Market","Grameen Vikas : Siddhant, Neetiyan evam Prabandh"
+218,Olivia Walsh,31.2,53.65,26.45,35.86,20.47,French,79,The Final Frontier: E&P's Low-Cost Operating Model,"Groundwater Management in India : Physical, Institutional
+and Policy Alternatives"
+219,Keira Cooper,53.82,32.1,47.96,41.85,34.83,Handwriting,66,"The Greening of US Free Trade Agreements : From NAFTA
+to the Present Day",Central Banking in Turbulent Times
+220,Gil Bristow,34.05,31.5,57.88,29.35,43.44,Language Arts,84,The Indian Economy : A Macroeconomic Perspective,"China and India : History, Culture, Cooperation and
+Competition"
+221,Lillian Payne,61.31,60.01,43.48,44.18,28.1,Resource Program,69,"The Other Half of Macroeconomics and the Fate of
+Globalization",Cities and Public Policy : An Urban Agenda for India
+222,Bryce Jackson,61.86,50.72,50.8,39.97,25.02,Leadership,70,"The Paradox of India’s North–South Divide : Lessons from
+the States and Regions",
+223,Hailey Johnson,80.82,37.12,59.23,30.29,44.99,Handwriting,58,"Job Creation and Poverty Reduction in India : Towards
+Rapid and Sustained Growth","Contemporary Practices of Mahatma Gandhi National
+Rural Employment Guarantee Scheme : Insights from
+Districts"
+224,Erick Stevens,69.14,51.75,30.89,42.09,39.02,Resource Program,70,"Jumpstarting South Asia : Revisiting Economic Reforms and
+Look East Policies","Contemporary Topics in Finance - A Collection of Literature
+Surveys"
+225,Marigold Olivier,25.82,63.59,68.72,32.52,38.71,Sociology,23,Land Policies for Equity and Growth : Transforming the,"Corporate Reputation and Social Activism : Strategic
+Interaction, Firm Behavior, and Social Welfare"
+226,Alba Ellis,79.65,53.8,88.62,30.1,28.37,Dramatics,56,Agrarian Structure in Uttar Pradesh,Creative Globalization
+227,Jasmine Neville,21.35,33.93,49.62,29.18,22.43,Spanish,84,Land Reforms in India : Computerisation of Land Records,"Dainik Jeevan Mein Arthshastra : Vikas Ke Kshetra Me
+Karyrat Peshevaron Ke Liye Saral Margdarshika"
+228,Fred Harrison,47.95,46.54,77.44,30.15,27.04,Trigonometry,44,"Lectures in Macroeconomics : A Capitalist Economy
+Without Unemployment",Dalits in Modern India : Vision and Values
+229,Mina Mackenzie,51.53,67.78,46.52,36.39,30.27,German,23,"Macroeconomic Policies for Emerging and Developing
+Economies","Decentralization, Forests and Rural Communities : Policy
+Outcomes in Southeast Asia"
+230,Charlotte Barclay,58.27,63.9,83.06,41.41,40.06,Geography,41,Macroeconomics,"Democratizing Development :
+Social Justice in India"
+231,Benny Thomas,22.24,34.14,40.24,41.56,31.12,Grammar,71,Macroeconomics : Theories & Policies,Demonetisation : A means to an End?
+232,Chanelle Harris,55.27,37.37,47.55,38.04,23.72,Basic Math,37,"Macroeconomics Simplified : Understanding Keynesian and
+Neoclassical Macroeconomic Systems",Development and Distribution
+233,Monica Quinton,69.92,54.38,86.62,33.19,44.04,Science,34,"Macroeconomics, Global Edition","Development Under Stress : Sri Lankan Economy in
+Transition"
+234,Louise Vallins,77.78,26.71,48.69,45.55,37.71,Dramatics,44,Macroeconomics: Pearson New International Edition,Developmentalism as Strategy
+235,Adela Powell,27.58,59.92,86.68,44.52,30.38,History,43,"Making Growth Happen in India : A Road Map for Policy
+Success","Diminishing Returns at Work : The Consequences of Long
+Working Hours"
+236,Owen Talbot,41.32,27.49,63.59,30.35,34.61,Latin,39,Managerial Economics,Econometric Analysis: International Edition
+237,Marvin Mcnally,35,57.94,46.37,27.39,25.29,Spanish,43,Managerial Economics,Economic Democracy through Pro Poor Growth
+238,Cherish Thorpe,45.77,42.28,27.58,30.38,33.11,Ancient Civilizations,72,Managerial Economics,"Economic Growth with Social Justice : Collected Writings of
+Mahbub ul Haq"
+239,Mavis Bowen,88.2,66.38,59.68,31.41,34.3,Language Arts,41,Managerial Economics,"Economic Reforms in India and China : Emerging Issues and
+Challenges"
+240,Vanessa Preston,27.87,48.33,53.91,47.82,23.67,French,27,"Micro-Credit, Poverty and Empowerment : Linking the
+Triad","Economics in Action : An Easy Guide for Development
+Practitioners"
+241,Carter Thomson,51.67,45.63,63.34,33.01,27.51,Language Arts,23,Microeconomics: An Advanced Treatise,Embodying Integral Development : A Holistic Approach
+242,Matt Beal,31.17,45.77,47.32,31.68,32.08,History,52,Modern Banking,"Growth and Development in Emerging Market Economies :
+International Private Capital Flow, Financial Markets and
+Globalization"
+243,Shelby Butler,23.3,60.97,73.46,46.92,39.12,Health,67,Money and Banking,GST and Its Aftermath : Is consumer really the King ?
+244,Bob Bloom,58.08,48.98,82.01,39.98,23.76,Science,80,Muslims in Indian Labour Market,"How Lives Change : Palanpur, India, and Development
+Economics"
+245,Benny Potter,30.45,38.74,61.2,47.01,36.77,Accounting,56,Panel Data Econometrics with R,How to Combat Recession : Stimulus without Debt
+246,Payton Edler,47.41,25.46,75.19,28.44,32.28,Latin,38,The Politics of Poverty : Planning India's Development,Human Development in an Unequal World
+247,Kaylee Allington,31.09,55.16,82.18,42.32,38.92,Basic Math,66,"The Politics of Water Resource Development in India : The
+Case of Narmada","Inclusive Economics : Gandhian Method and
+Contemporary Policy"
+248,Tony Randall,48.82,32.35,88.39,38.72,36.75,Instrumental Music,42,The Roots of Ill-Governance and Corruption,"Inclusive Innovation for Development : Meeting the
+Demands of Justice through Public Action"
+249,Margaret Vernon,85.11,57.82,67.88,44.58,20.55,Speech,37,"The Welfare State in Europe : Economic and Social
+Perspectives",India Macroeconomics Annual 2006
+250,Claire Rivers,66.18,27.46,28.59,25.67,20.62,Grammar,80,"Trade in Services and Trade Agreements : Perspectives
+from India and the European Union",India Macroeconomics Annual 2009
+251,Rufus Hogg,49.99,36.51,59.06,33.63,23.49,Speech,62,"Trade in Services in South Asia : Opportunities and Risks of
+Liberalization",Indian Economy: A Macro-theoretic Analysis
+252,Isla Waterhouse,74.71,52.16,83.5,26.48,34.35,Basic Math,59,"Transitional Puzzles : Reflections on Social, Economic and
+Political Issues",Indian Microfinance : The Challenges of Rapid Growth
+253,Julius Blackburn,26.17,22.51,49.41,28.03,25.15,Music,21,"Understanding Women’s Land Rights : Gender
+Discrimination in Ownership","India's Economy and Growth : Essays in Honour of V K R V
+Rao"
+254,Fred Hardwick,22.66,58.8,83.19,45.29,43.61,Science,35,"Unfreedom and Waged Work : Labour in India's
+Manufacturing Industry",India's Financial Sector : An Era of Reforms
+255,Domenic Lunt,47,29.5,48.08,37.97,30.15,LOGIC,26,Urban Women in Contemporary India : A Reader,India's Liberalisation Experience : Hostage to WTO?
+256,Cynthia Moran,54.54,61.48,76,35.94,33.52,American Literature,43,"Urbanisation in India : Challenges, Opportunities and the
+Way Forward","India's Long-Term Growth Experience : Lessons and
+Prospects"
+257,Taylor May,36.45,33.37,26.2,39.21,43.8,Modern Literature,31,Using Econometrics: Pearson New International Edition,"Industrial Development and Displacement : The People of
+Korba"
+258,Clint Mcguire,35.65,64.63,57.11,43.4,38.76,Science,85,Vikas ka Arthshastra : Samaveshi Samvriddhi ki or,Industrial Economics and Telecommunication Regulations
+259,Evie Allcott,51.67,37.88,68.73,42.98,41.5,History,30,"Planning and Economics of Cities : Shaping Indias Form and
+Future","Industrial Restructuring in Asia : Implications of the Global
+Economic Crisis"
+260,Carl Wigley,60.06,40.15,55.37,41.9,34.51,Art,24,"Political Economy of Poverty Eradication in India and
+Essays on Fiscal Reform","Informal Economy Centrestage : New Structures of
+Employment"
+261,Payton Coll,68.51,27.62,68.18,42.29,31.18,Latin,34,Principles and Systems of Banking,"Innovation Driven Institutional Research : Towards Integral
+Development"
+262,Anais Parr,73.43,37.03,88.49,43.68,28.07,Design and technology,51,Progressive Fiscal Policy in India,"International Economics: Theory and Policy, Global Edition"
+263,Raquel Hopkins,25.85,62.39,70.9,31.36,28.64,Instrumental Music,57,"Right to Work and Rural India : Working of the Mahatma
+Gandhi National Rural Employment Guarantee Scheme
+(MGNREGS)",International Trade : The Basics
+264,Michael Smith,62.25,29.69,28.46,27.17,23.95,Music,28,Risk and Liquidity,"Employment and Labour Market in Northeast India:
+Interrogating Structural Changes"
+265,Gabriel Shelton,32.09,53.55,52.2,29.59,27.56,Geography,34,"Schaum’s Outline of Introduction to Mathematical
+Economics","Employment and Unemployment in India : Emerging
+Tendencies During the Post-Reform Period"
+266,Chuck Robinson,25.73,31.05,85.52,26.08,41.23,Geography,45,Schaum's Easy Outline of Principles of Economics,"Environment and Development : Essays in Honour of Dr U.
+Sankar"
+267,Havana Tyrrell,69.94,24.18,81.25,29.26,43.25,Ecology,52,Schaum's Easy Outlines: Mathematical Economics,Environment and Fiscal Reforms in India
+268,Roger Upton,86.64,49.63,56.72,26.41,37.25,Dramatics,48,"Schaum's Outline of Mathematical Methods for Business
+and Economics","Environmental Accounting, Sustainability and
+Accountability"
+269,Cassandra Forth,35.48,42.14,74.3,45.35,31.91,French,21,Schaum's Outline of Microeconomics,Environmental Economics and Sustainability
+270,Alexa Ring,74.99,45.6,52.03,27.22,35.46,Instrumental Music,83,Schaum's Outline of Statistics and Econometrics,Essential Mathematics for Economic Analysis
+271,Clarissa Redfern,35.83,48.38,43.09,25.46,39.38,Earth Science,22,"Social Accounting Matrix for India : Concepts, Construction
+and Applications",Evolution of Banking System in India since 1900
+272,Marvin Irving,31.7,24.77,57.26,39.73,38.99,Geography,32,Social Economy of Development in India,"Finance and Financial Intermediation : A Modern
+Treatment of Money, Credit, and Banking"
+273,Eileen Benson,78.99,36.08,55.58,27.64,27.16,Physical Education,35,Strategic Credit Management in Banks,"Financial Intermediation in a Less Developed Economy :
+The History of the United Bank of India
+Financing Cities : Fiscal Responsibility and Urban"
+274,Eve Hill,33.15,21.65,81.51,26.92,29.03,Sociology,36,"Strategies for Achieving Sustained High Economic Growth :
+The Case of Indian States","Infrastructure in Brazil, China, India, Poland and South
+Africa"
+275,Ivy Giles,27.61,35.36,32.02,38.79,21.49,Basic Math,36,"The Community of Advantage : A Behavioural Economist's
+Defence of the Market","Fiscal Consolidation, Budget Deficits and the Macro
+Economy"
+276,Chris Buckley,46.92,36.37,54.29,37.57,43.42,Modern Literature,32,The Final Frontier: E&P's Low-Cost Operating Model,"Fiscal Therapy : Curing America's Debt Addiction and
+Investing in the Future"
+277,Cassandra Kelly,62.3,62.9,83.63,37.71,41.08,Handwriting,42,"The Greening of US Free Trade Agreements : From NAFTA
+to the Present Day",Food Security in Asia
+278,Julian Andrews,27.54,35.32,26.51,37.46,37.83,Leadership,43,The Indian Economy : A Macroeconomic Perspective,Formal Labour Market in Urban India
+279,Doug Amstead,65.9,35.66,28.68,29.74,35.42,Speech,68,"The Other Half of Macroeconomics and the Fate of
+Globalization","Game Theory Approach to Managerial Strategies and
+Value Creation"
+280,Marie Groves,25.26,36.68,61.12,35.41,22.72,Physical Education,58,"The Paradox of India’s North–South Divide : Lessons from
+the States and Regions","Global Algorithmic Capital Markets : High Frequency
+Trading, Dark Pools, and Regulatory Challenges"
+281,Domenic Truscott,61.05,57.53,67.98,26.94,39.37,Accounting,66,The Politics of Poverty : Planning India's Development,Globalization : India's Adjustment Experience
+282,Alan Gray,84.91,52.17,57.86,33.43,32.44,Instrumental Music,23,"The Politics of Water Resource Development in India : The
+Case of Narmada","Globalization and Indigenous Peoples in Asia : Changing
+the Local-Global Interface"
+283,Dasha Rees,76.59,30.61,43.02,28.56,35.12,Sociology,52,The Roots of Ill-Governance and Corruption,"Globalization of Legal Services and Regulatory Reforms :
+Perspectives and Dynamics from India"
+284,Benjamin Tailor,54.98,65.53,81.08,35.18,21.27,Latin,60,"The Welfare State in Europe : Economic and Social
+Perspectives","Grameen Vikas : Siddhant, Neetiyan evam Prabandh"
+285,Courtney Miller,58.35,54.81,82.81,27.17,23.12,Grammar,22,"Trade in Services and Trade Agreements : Perspectives
+from India and the European Union","Groundwater Management in India : Physical, Institutional
+and Policy Alternatives"
+286,Lexi Judd,38.55,66.48,39.24,46.51,32.28,Latin,78,"Trade in Services in South Asia : Opportunities and Risks of
+Liberalization","Job Creation and Poverty Reduction in India : Towards
+Rapid and Sustained Growth"
+287,Abdul Jeffery,57.95,51.75,40.96,25.29,30.38,American Literature,47,"Transitional Puzzles : Reflections on Social, Economic and
+Political Issues","Jumpstarting South Asia : Revisiting Economic Reforms and
+Look East Policies"
+288,Colleen Curtis,77.83,56.68,78.11,46.5,27.47,Music,23,"Understanding Women’s Land Rights : Gender
+Discrimination in Ownership",Land Policies for Equity and Growth : Transforming the
+289,Alan Bell,79.44,60.88,27.5,39.19,31.01,Latin,71,"Unfreedom and Waged Work : Labour in India's
+Manufacturing Industry",Agrarian Structure in Uttar Pradesh
+290,Chadwick Cassidy,30.59,36.42,39.61,40.65,32.29,German,68,Urban Women in Contemporary India : A Reader,Land Reforms in India : Computerisation of Land Records
+291,Winnie Watson,65.2,41.7,71.95,34.97,33.25,Grammar,31,"Urbanisation in India : Challenges, Opportunities and the
+Way Forward","Lectures in Macroeconomics : A Capitalist Economy
+Without Unemployment"
+292,Tess Wood,46.76,53.56,72.94,33.7,23.88,Basic Math,84,Using Econometrics: Pearson New International Edition,"Macroeconomic Policies for Emerging and Developing
+Economies"
+293,Jacob Goldsmith,83.55,54.39,75.58,37.26,33.27,Earth Science,60,Vikas ka Arthshastra : Samaveshi Samvriddhi ki or,Macroeconomics
+294,Adeline Shaw,23.09,51.71,83.04,31.76,34.61,Design and technology,48,"Management: Tasks, Responsibilities and Practices",Macroeconomics : Theories & Policies
+295,Kamila Wilkinson,25.57,38.1,62.23,26.99,33.38,Language Arts,23,Advanced Accounts,"Macroeconomics Simplified : Understanding Keynesian and
+Neoclassical Macroeconomic Systems"
+296,David Alldridge,34.44,67.32,50.17,40.03,25.6,Accounting,83,Fundamental of Financial Accounting,"Macroeconomics, Global Edition"
+297,Jade Morris,86.11,42.01,81.57,29.98,42.46,Resource Program,26,Risk Management in Finance,Macroeconomics: Pearson New International Edition
+298,Lucy Milner,58.27,67.79,84.15,37.15,35.6,Mathematics,26,India Accounting Standards,"Making Growth Happen in India : A Road Map for Policy
+Success"
+299,Emery Nurton,43.79,38.25,44.89,25.43,42.73,Science,21,Illustrated Guide to India Accounting Standards,Managerial Economics
+300,Nicole Tennant,58.53,43.08,27.59,36.96,35.92,Ancient Civilizations,73,Company Law and Secretarial Practice.,Managerial Economics
+301,Rose Savage,53.87,49.37,42.14,39.1,21.58,Handwriting,45,Guide to Company Law Procedures.,Managerial Economics
+302,Bart King,44.25,46.4,38.31,38.09,22.3,Economics,61,Management Information Systems,Managerial Economics
+303,Renee Chappell,31.48,61.53,42.19,46.04,22.86,History,32,Management Information Systems: Managerial Perspectives,"Micro-Credit, Poverty and Empowerment : Linking the
+Triad"
+304,Trisha Farrell,51.92,23.8,59.36,38.37,28,Earth Science,28,Currency Banking & Exchange,Microeconomics: An Advanced Treatise
+305,Alan Addley,73.32,63.55,62.24,46.59,38.48,Art,78,Professional Business Skills 2nd Edition,Modern Banking
+306,Macy Hope,30.7,26.41,70.13,39.18,25.67,German,53,Financial Management in Hotels and Restaurant Industry,Money and Banking
+307,Kurt Rigg,28.85,66.97,86.54,31.78,44.71,Science,50,Principles of Accounting &Advanced Accounting,Muslims in Indian Labour Market
+308,Maya Kerr,33.59,59.68,36.28,30.66,41.14,Dramatics,31,Professional Communication Skills,Panel Data Econometrics with R
+309,Courtney Walker,26.22,38.38,53.13,35.87,33,Spanish,72,Marketing Management” (Latest Edition)-,"Growth and Development in Emerging Market Economies :
+International Private Capital Flow, Financial Markets and
+Globalization"
+310,Angelique Rycroft,70.42,29.36,63.75,47.64,41.49,Handwriting,79,"Marketing Management-Concepts and Cases”,",GST and Its Aftermath : Is consumer really the King ?
+311,Ryan Thompson,87.82,38.84,73.69,40.74,28.84,Spanish,34,Human Resource Management,"How Lives Change : Palanpur, India, and Development
+Economics"
+312,Molly Hamilton,25.83,57.54,40.85,46.45,43.23,French,70,"Essentials of Financial Accounting,",How to Combat Recession : Stimulus without Debt
+313,Harry Brown,46.89,36.94,60.01,45.69,35.06,LOGIC,46,Advertising and Promotion Management,Human Development in an Unequal World
+314,Cynthia Powell,26.36,41.2,47.67,38.01,37.49,History,72,Introduction to Computers,"Inclusive Economics : Gandhian Method and
+Contemporary Policy"
+315,Bob Eaton,80.16,35.74,30.24,33.43,32.96,Resource Program,83,"Introduction To Information Technology,","Inclusive Innovation for Development : Meeting the
+Demands of Justice through Public Action"
+316,Jack Ranks,35.72,51.89,36.94,33.59,39.32,Speech,33,Web Commerce Technology Hand Book,India Macroeconomics Annual 2006
+317,Isabella Fields,32.86,52.83,55.36,43.45,38.13,History,30,IFRS (Red Book).,India Macroeconomics Annual 2009
+318,Benjamin Weston,79.5,37.98,39.19,43.98,40.38,Earth Science,73,Brand Management,Indian Economy: A Macro-theoretic Analysis
+319,Gwenyth Palmer,46.01,23.16,49,30.64,27.01,Spanish,61,Training and Development Methods,Indian Microfinance : The Challenges of Rapid Growth
+320,Keira Matthews,88.53,49.73,45.71,41.27,44.69,Accounting,76,Questionnaire Design,"India's Economy and Growth : Essays in Honour of V K R V
+Rao"
+321,Keira Pitt,21.3,33.88,37.53,26.72,21.1,Geography,32,"Corporate Governance (Indian Edition),",India's Financial Sector : An Era of Reforms
+322,Lucas Brooks,34.34,23.16,64.03,47.3,38.82,Music,56,Fundamentals of Computers,India's Liberalisation Experience : Hostage to WTO?
+323,Scarlett Dwyer,23.38,42.67,52.04,39.99,38.02,Spanish,29,Information Technology,"India's Long-Term Growth Experience : Lessons and
+Prospects"
+324,Danny Walsh,52.52,51.69,44.5,26.62,35.55,Geography,67,Managerial Economics,"Industrial Development and Displacement : The People of
+Korba"
+325,Barry Harris,57.46,48.74,87.95,40.67,36.41,Sociology,38,Quantitative Methods for Business,Industrial Economics and Telecommunication Regulations
+326,Rick Snow,62.05,33.57,45.71,44.24,24.59,German,61,Cost Accounting,"Industrial Restructuring in Asia : Implications of the Global
+Economic Crisis"
+327,Moira Overson,72.91,48.88,77.89,35.27,30.14,Geography,65,,"Informal Economy Centrestage : New Structures of
+Employment"
+328,Cameron Veale,80.25,43.93,81.83,25.57,26.5,Science,65,LIST OF BOOKS FOR DEPARTMENT OF COMMERCE,"Innovation Driven Institutional Research : Towards Integral
+Development"
+329,Josh Wigley,40.01,47.93,81.25,45.73,40.32,Earth Science,78,NAME OF BOOK,"International Economics: Theory and Policy, Global Edition"
+330,Enoch Isaac,63.13,44.57,31.04,33.92,22.23,German,37,Ethics and the Conduct of Business,International Trade : The Basics
+331,Chelsea Clifford,64.1,51.31,25.15,47.4,34.14,LOGIC,24,Business management,"Planning and Economics of Cities : Shaping Indias Form and
+Future"
+332,Leslie Murphy,50.18,38.16,28.66,46.14,44.65,Ancient Civilizations,84,Management,"Political Economy of Poverty Eradication in India and
+Essays on Fiscal Reform"
+333,Eduardo Lindop,83.35,56.66,78.71,26.71,36.24,Accounting,31,Principles and Practice of Management,Principles and Systems of Banking
+334,Chadwick Snow,59.37,53.76,34.21,36.92,42,Sociology,40,Fundamentals of Corporate Accounting,Progressive Fiscal Policy in India
+335,Rosemary Mccormick,27.02,63.15,38.6,36.22,29.21,French,44,Advanced Accounts,"Right to Work and Rural India : Working of the Mahatma
+Gandhi National Rural Employment Guarantee Scheme
+(MGNREGS)"
+336,Ally Parker,56.15,40.42,43.71,38.62,43.65,Accounting,53,Financial Accounting,Risk and Liquidity
+337,Emmanuelle Chester,54.76,42.07,53.58,38.64,28.57,Ancient Civilizations,52,Advanced Accounting,"Schaum’s Outline of Introduction to Mathematical
+Economics"
+338,Matthew Stone ,88.49,31.97,34.75,34.7,34.76,Economics,50,The Principles of Mercantile Law,Schaum's Easy Outline of Principles of Economics
+339,Jolene Vaughan,24.26,41.48,69.48,41.61,38.45,Language Arts,67,Introduction to Accounting,Schaum's Easy Outlines: Mathematical Economics
+340,Carl Hilton,76.86,20.52,86.22,39.45,30.72,Dramatics,78,Cost Accounting,"Schaum's Outline of Mathematical Methods for Business
+and Economics"
+341,Rick Clarke,33.71,49.88,66.11,38.07,23.93,Geography,66,Cost Accounting,Schaum's Outline of Microeconomics
+342,Martin Brown,72.79,31.66,64.5,45.7,39.94,Dramatics,59,Principles of Company Law.,Schaum's Outline of Statistics and Econometrics
+343,Hayden Gardner,78.73,62.56,80.91,34.02,40.85,Resource Program,36,Working in Microsoft office,"Social Accounting Matrix for India : Concepts, Construction
+and Applications"
+344,Anais Yates,71.07,41.7,62.23,40.62,32.93,French,36,Personal Management and Human Resources,Social Economy of Development in India
+345,Carter Robertson,85.67,33.94,40.95,29.39,21.51,Mathematics,31,An Introduction to Accountancy,Strategic Credit Management in Banks
+346,Elle Wallace,85.39,59.61,36.13,47.69,32.9,American Literature,71,: Management Accounting,"Strategies for Achieving Sustained High Economic Growth :
+The Case of Indian States"
+347,Jolene Ventura,36.96,21.76,87.9,26.17,34.9,Grammar,30,"Basic Marketing Concepts, Decisions and Strategy","The Community of Advantage : A Behavioural Economist's
+Defence of the Market"
+348,Meredith Watt,21.95,34.85,41.95,40.1,22.91,Design and technology,84,Fundamentals of Marketing,The Final Frontier: E&P's Low-Cost Operating Model
+349,Michael Newton,32.39,59.61,25.99,28.08,31.63,Language Arts,52,Fundamentals of Statistics,"The Greening of US Free Trade Agreements : From NAFTA
+to the Present Day"
+350,Ivy Dubois,77.92,60.8,62.61,40.54,34.27,Mathematics,39,Business Law,The Indian Economy : A Macroeconomic Perspective
+351,George Armstrong,78.12,60.17,47.81,47.17,22.16,English IV,24,Cost Accounting,"The Other Half of Macroeconomics and the Fate of
+Globalization"
+352,Maxwell Jarrett,52.68,24.18,42.89,31.19,21.13,Science,52,Management Accounting.,"The Paradox of India’s North–South Divide : Lessons from
+the States and Regions"
+353,Andrea Griffiths,75.55,31.03,53.01,30.36,39.58,Accounting,39,Methodology and Techniques of Social Research,"Job Creation and Poverty Reduction in India : Towards
+Rapid and Sustained Growth"
+354,Kurt Funnell,77.68,41.05,51.71,26.9,24.2,Accounting,22,Research Methodology,"Jumpstarting South Asia : Revisiting Economic Reforms and
+Look East Policies"
+355,Isabella Funnell,23.71,66.42,38.34,33.53,43.33,Leadership,58,"Corporate Governance, Business Ethics, and CSR,",Land Policies for Equity and Growth : Transforming the
+356,Julian Terry,81.52,42.41,31.62,33.39,37.17,French,47,Business Economics,Agrarian Structure in Uttar Pradesh
+357,Benny Simpson,46.03,35.78,33.58,32.09,35.29,Speech,22,,Land Reforms in India : Computerisation of Land Records
+358,Parker Thorpe,71.11,65.23,88.96,25.65,38.3,Earth Science,38,LIST OF BOOKS FOR DEPARTMENT OF COMMERCE- Reference,"Lectures in Macroeconomics : A Capitalist Economy
+Without Unemployment"
+359,Sloane Lewin,21.79,63.33,74.47,28.9,20.31,Modern Literature,44,NAME OF BOOK,"Macroeconomic Policies for Emerging and Developing
+Economies"
+360,Kurt Casey,81.17,56.64,46.05,39.58,25.29,Spanish,78,"Management: Tasks, Responsibilities and Practices",Macroeconomics
+361,Josh Benfield,39.02,30.87,42.65,26.83,29.33,Health,48,Advanced Accounts,Macroeconomics : Theories & Policies
+362,Marilyn Broomfield,27.63,28.85,35.21,42.58,33.92,Design and technology,84,Fundamental of Financial Accounting,"Macroeconomics Simplified : Understanding Keynesian and
+Neoclassical Macroeconomic Systems"
+363,Matt Long,59.61,41.17,62.42,39.98,22.18,LOGIC,42,Risk Management in Finance,"Macroeconomics, Global Edition"
+364,Boris Milner,73.42,66.52,81.79,35.58,23.04,Physical Education,50,India Accounting Standards,Macroeconomics: Pearson New International Edition
+365,Grace Vallory,52.3,65.03,65.63,30.78,42.51,Science,38,Illustrated Guide to India Accounting Standards,"Making Growth Happen in India : A Road Map for Policy
+Success"
+366,Wade King,57.99,67.02,55.69,43.13,43.4,English IV,69,Company Law and Secretarial Practice.,Managerial Economics
+367,Chuck Roberts,53.4,55.91,53.92,36.79,25.84,Ecology,30,Guide to Company Law Procedures.,Managerial Economics
+368,Harvey Chester,56.45,34.15,61.35,25.13,21.42,Sociology,43,Management Information Systems,Managerial Economics
+369,Piper Devonport,43.55,52.42,67.26,31.48,39.32,Music,64,Management Information Systems: Managerial Perspectives,Managerial Economics
+370,Rick Bowen,72.14,44.37,81.8,38.5,22.21,Speech,31,Currency Banking & Exchange,"Micro-Credit, Poverty and Empowerment : Linking the
+Triad"
+371,Anthony Murray,43.31,53.16,25.16,35.68,24.09,Physical Education,57,Professional Business Skills 2nd Edition,Microeconomics: An Advanced Treatise
+372,Winnie Hamilton,66.98,60.26,71.29,33.91,42.83,Ancient Civilizations,56,Financial Management in Hotels and Restaurant Industry,Modern Banking
+373,Sydney Lambert,50.46,56.03,44.93,28.47,35.13,Music,81,Principles of Accounting &Advanced Accounting,Money and Banking
+374,Joyce Nicolas,87.43,64.33,30.54,44.13,29.39,Spanish,31,Professional Communication Skills,Muslims in Indian Labour Market
+375,Elle Carter,48.87,56.9,51.6,30.71,28.42,History,30,Marketing Management” (Latest Edition)-,Panel Data Econometrics with R
+376,Daniel Pitt,44.71,66.28,88.3,46.47,42.07,Handwriting,40,"Marketing Management-Concepts and Cases”,",The Politics of Poverty : Planning India's Development
+377,Payton Richardson,26.37,26.65,86.7,26.74,29.4,Modern Literature,64,Human Resource Management,"The Politics of Water Resource Development in India : The
+Case of Narmada"
+378,Alexander Porter,27.51,24.3,65.62,42.65,30.62,Health,74,"Essentials of Financial Accounting,",The Roots of Ill-Governance and Corruption
+379,Martha Strong,86.7,61.19,62.93,39.95,27.59,Resource Program,30,Advertising and Promotion Management,"The Welfare State in Europe : Economic and Social
+Perspectives"
+380,Cherish James,43.56,31.29,55.67,33.4,44.73,Dramatics,36,Introduction to Computers,"Trade in Services and Trade Agreements : Perspectives
+from India and the European Union"
+381,Kaylee Ellwood,85.52,67.28,37.12,42.67,33.85,Leadership,28,"Introduction To Information Technology,","Trade in Services in South Asia : Opportunities and Risks of
+Liberalization"
+382,Owen Jordan,35.49,42.41,55.16,32.87,29.38,Sociology,29,Web Commerce Technology Hand Book,"Transitional Puzzles : Reflections on Social, Economic and
+Political Issues"
+383,Benny Purvis,69.14,49.19,49.18,25.76,35.55,Handwriting,26,IFRS (Red Book).,"Understanding Women’s Land Rights : Gender
+Discrimination in Ownership"
+384,Alexander Barclay,22.39,28.57,27.22,28.49,26.18,Design and technology,57,Brand Management,"Unfreedom and Waged Work : Labour in India's
+Manufacturing Industry"
+385,Carl Lloyd,29.6,23.38,60.21,46.4,26.93,Ecology,25,Training and Development Methods,Urban Women in Contemporary India : A Reader
+386,Charlize Edmonds,80.92,39.44,45.63,44.99,25.63,Instrumental Music,66,Questionnaire Design,"Urbanisation in India : Challenges, Opportunities and the
+Way Forward"
+387,Lucas Plant,80.43,32.01,28.94,39.01,31.63,Economics,56,"Corporate Governance (Indian Edition),",Using Econometrics: Pearson New International Edition
+388,Boris Noon,30.24,22.57,30.7,39.34,39.48,Modern Literature,66,Fundamentals of Computers,Vikas ka Arthshastra : Samaveshi Samvriddhi ki or
+389,Fiona Burge,47.45,48.21,76.72,36.81,36.51,Ancient Civilizations,57,Information Technology,"Planning and Economics of Cities : Shaping Indias Form and
+Future"
+390,Judith Ulyatt,50.77,66.7,82.2,44.97,34.22,History,50,Managerial Economics,"Political Economy of Poverty Eradication in India and
+Essays on Fiscal Reform"
+391,Rose Summers,65.78,65.56,69.48,39.03,21.26,Instrumental Music,78,Quantitative Methods for Business,Principles and Systems of Banking
+392,Cecilia Vince,58.55,28.89,80.75,45,32.36,Dramatics,70,Cost Accounting,Progressive Fiscal Policy in India
+393,Ciara Sanchez,80.37,66.11,31.99,28.89,33.85,Ecology,60,,"Right to Work and Rural India : Working of the Mahatma
+Gandhi National Rural Employment Guarantee Scheme
+(MGNREGS)"
+394,Sebastian Woods,69.71,62.89,30.5,34.03,21.36,Resource Program,47,LIST OF BOOKS FOR DEPARTMENT OF COMMERCE,Risk and Liquidity
+395,Martin Weston,38.59,65.67,35.2,28.68,27.71,Spanish,54,NAME OF BOOK,"Schaum’s Outline of Introduction to Mathematical
+Economics"
+396,Maxwell Trent,88.32,38.5,56.47,31.8,31.71,Latin,40,Ethics and the Conduct of Business,Schaum's Easy Outline of Principles of Economics
+397,Janelle Lambert,42.6,32.24,47.5,39.97,42.82,Sociology,37,Business management,Schaum's Easy Outlines: Mathematical Economics
+398,Rosemary Quinton,48.18,67.97,44.74,25.72,44.34,Mathematics,82,Management,"Schaum's Outline of Mathematical Methods for Business
+and Economics"
+399,Jacob Rixon,27.25,55.35,37.31,33.7,30.67,Grammar,41,Principles and Practice of Management,Schaum's Outline of Microeconomics
+400,Deborah Leslie,49.57,34.44,38.24,33.3,38.97,Ecology,42,Fundamentals of Corporate Accounting,Schaum's Outline of Statistics and Econometrics
+401,Sienna Evans,63.93,61.18,32.15,44.64,22.85,LOGIC,74,Advanced Accounts,"Social Accounting Matrix for India : Concepts, Construction
+and Applications"
+402,Isla Vane,70.31,29.61,68.02,31.4,21.93,Latin,36,Financial Accounting,Social Economy of Development in India
+403,Bernadette May,56.76,60.91,57.76,26.51,40.6,Earth Science,78,Advanced Accounting,Strategic Credit Management in Banks
+404,Chester Veale,53.44,47.25,60.67,37.41,39.9,Dramatics,34,The Principles of Mercantile Law,"Strategies for Achieving Sustained High Economic Growth :
+The Case of Indian States"
+405,Dani Graves,80.93,30.98,29.06,27.33,20.95,Physical Education,50,Introduction to Accounting,"The Community of Advantage : A Behavioural Economist's
+Defence of the Market"
+406,Phillip Kelly,54.59,21.78,80.49,46.6,28.71,Dramatics,69,Cost Accounting,The Final Frontier: E&P's Low-Cost Operating Model
+407,Lexi Rogan,87.94,35.71,53.83,39.87,29.59,Resource Program,43,Cost Accounting,"The Greening of US Free Trade Agreements : From NAFTA
+to the Present Day"
+408,Julius Nobbs,49.63,58.63,26.33,45.19,41.81,Design and technology,75,Principles of Company Law.,The Indian Economy : A Macroeconomic Perspective
+409,Jaylene Blackburn,60.5,38.65,78,33.08,35.74,Economics,82,Working in Microsoft office,"The Other Half of Macroeconomics and the Fate of
+Globalization"
+410,Oliver Olivier,34.44,65.78,77.77,29.71,42.96,Ancient Civilizations,71,Personal Management and Human Resources,"The Paradox of India’s North–South Divide : Lessons from
+the States and Regions"
+411,Barry Hall,25.51,57.64,57.34,31.88,25.19,History,48,An Introduction to Accountancy,The Politics of Poverty : Planning India's Development
+412,Mike Isaac,20.06,27.2,71.27,47.42,41.14,Handwriting,50,: Management Accounting,"The Politics of Water Resource Development in India : The
+Case of Narmada"
+413,Penelope Boyle,60.43,32.91,75.58,25.11,43.84,Basic Math,43,"Basic Marketing Concepts, Decisions and Strategy",The Roots of Ill-Governance and Corruption
+414,Nate Russel,36.75,44.13,87.83,41.86,40.2,German,34,Fundamentals of Marketing,"The Welfare State in Europe : Economic and Social
+Perspectives"
+415,Kurt Weston,64.65,50.96,40.41,31.77,43.35,Spanish,38,Fundamentals of Statistics,"Trade in Services and Trade Agreements : Perspectives
+from India and the European Union"
+416,Bryon Simpson,27.32,62.47,84.64,28.12,35.87,Earth Science,52,Business Law,"Trade in Services in South Asia : Opportunities and Risks of
+Liberalization"
+417,Doris Harris,62.05,55.85,75.35,35.3,25.35,Handwriting,57,Cost Accounting,"Transitional Puzzles : Reflections on Social, Economic and
+Political Issues"
+418,Angelique John,76.16,31.78,56.8,42.49,27.71,Handwriting,43,Management Accounting.,"Understanding Women’s Land Rights : Gender
+Discrimination in Ownership"
+419,Ruby Williams,21.76,38.96,40.57,28.89,35.05,Ancient Civilizations,22,Methodology and Techniques of Social Research,"Unfreedom and Waged Work : Labour in India's
+Manufacturing Industry"
+420,Jack Pond,28.53,41.99,63.7,32.47,35.78,Grammar,65,Research Methodology,Urban Women in Contemporary India : A Reader
+421,Doug Robertson,70.02,59.63,80.94,31.44,44.06,Health,66,"Corporate Governance, Business Ethics, and CSR,","Urbanisation in India : Challenges, Opportunities and the
+Way Forward"
+422,Carmen Ward,57.18,37.51,48.96,33.79,26.02,Earth Science,60,Business Economics,Using Econometrics: Pearson New International Edition
+423,Wade Marshall,28.61,28.87,63.02,28.6,25.79,Leadership,59,"Management: Tasks, Responsibilities and Practices",Vikas ka Arthshastra : Samaveshi Samvriddhi ki or
+424,Erica Groves,59.38,34.13,49.38,46.45,30.27,Art,50,"Management: Tasks, Responsibilities and Practices","Advanced Applications and Structures in
+XML Processing: Label Streams, Semantics
+Utilization and Data Query Technologies"
+425,Joseph Miller,71.8,23.09,70.75,32.36,41.82,LOGIC,59,"A Concise Handbook of the Indian Economy in the 21st
+Century","Advances in Machine Learning Applications
+in Software Engineering"
+426,Abdul Dobson,86.58,39.88,53.69,30.89,38.43,Ancient Civilizations,48,"A Population History of India : From the First Modern
+People to the Present Day","Advances in UML and XML-Based Software
+Evolution"
+427,Oliver Bristow,33.92,61.6,41.21,44.42,37.02,Grammar,47,A Research on China’s Economic Growth Potential,An Introduction to Machine Learning
+428,Chadwick Moss,54.47,32.08,65,36.84,41.12,Earth Science,29,Agriculture in Developing Countries : Technology Issues,"Artificial Intelligence Applications for
+Improved Software Engineering
+Development: New Prospects"
+429,Julian Yarwood,25.65,53.87,34.64,28.96,43.27,Modern Literature,61,An Introduction to Econometric Theory,"Bayesian Network Technologies:
+Applications and Graphical Models"
+430,Barney Lloyd,79.38,24.68,45.01,34.25,23.32,Science,70,"Analysing Social Opposition to Reforms : The Electricity
+Sector in India","Behavior Trees in Robotics and AI : An
+Introduction"
+431,Hank Stone ,23.75,21.2,55.99,32.07,28.91,Trigonometry,76,Analytical Political Economy,Big Data : A Tutorial-Based Approach
+432,Bart Oswald,56,22.05,82.95,47.48,20.88,Language Arts,84,"Arthik Sudhar aur Samajik Apvarjan : Bhaarat Mein
+Upekshit Samuhon Par Udareekaran Ka Prabhav","Cryptography Apocalypse - Preparing for
+the Day When Quantum Computing Breaks
+Today's Crypto Edition 1"
+433,Sadie Savage,53.37,50.54,54.82,45.2,25.83,Geography,77,Ascent and Decline of Native and Colonial Trading,"Deep Learning in Natural Language
+Processing"
+434,Elijah Neville,23.19,23.6,86.86,41.16,27.18,Accounting,44,"Banking and Finance: Theory, Law & Practice","Diagnostic Test Approaches to Machine
+Learning and Commonsense Reasoning
+Systems"
+435,Melody Fox,70.15,42.76,58.51,38.96,26.08,History,74,"Beyond Gandhian Economics : Towards a Creative
+Deconstruction","Digital Image Watermarking : Theoretical
+and Computational Advances"
+436,Benjamin Middleton,72.21,66.8,72.19,34.84,40.13,Language Arts,64,"Beyond Relocation : The Imperative of Sustainable
+Resettlement",E-Book Fortan For Scientist & Engineering
+437,Barney Henderson,25.46,60.23,53.34,35.08,29.33,Dramatics,70,Bharat 2050 : Sthayi Samriddhi ki Yojana,"Emerging Research on Applied Fuzzy Sets
+and Intuitionistic Fuzzy Matrices"
+438,Dorothy Bloom,83.99,36.73,39.4,33.07,25.91,Ecology,68,Bharat ki Videsh Neeti : Chunauti aur Ranneeti,"Essential Algorithms - A Practical Approach
+to Computer Algorithms Using Python and
+C# P 2E"
+439,Charlize Needham,43.33,20.93,51.25,45.81,26.04,Grammar,26,"Bhartiya Arthavyavsthechi Sankramanavastha : C.T.
+kuriyen yanchya sanmanaarth nibandh",Exploratory Data Analysis Using R
+440,Manuel Stevens,78.64,30.05,87.34,46.82,39.02,Mathematics,75,"Bhartiya Arthvyawastha ka Sankaraman Kaal : C T Kurian ke
+Samman mein Nibandh Sankalan","Exploring Arduino - Tools and Techniques
+for Engineering Wizardry"
+441,Melania Benson,36.92,55.27,38.58,41.03,28.65,Music,21,Business Interests and the Environmental Crisis,"Information Technology : Theory and
+Practice"
+442,Barry Drummond,71.3,65.94,59.7,30.58,37.45,Sociology,61,"Capital Market Reform in Asia : Towards Developed and
+Integrated Markets in Times of Change","Keras to Kubernetes - The Journey Of A
+Machine Learning Model To Production"
+443,Maggie Malone,57.98,46.72,44.87,38.32,27.51,Geography,78,"Cash, Corruption and Economic Development","Multimodal Biometrics and Intelligent
+Image Processing for Security Systems"
+444,Louise Kidd,41.57,56.02,33.81,26.5,21.44,German,58,"Caste-Based Reservations and Human Development in
+India",Networking Fundamentals
+445,Mike Davies,35.28,23.41,64.22,36.34,22.56,Speech,29,Central Banking in Turbulent Times,"Neural Networks and Deep Learning: A
+Textbook"
+446,Bob Richards,88.45,61.27,73.42,31.12,37.18,Speech,64,"China and India : History, Culture, Cooperation and
+Competition","Practical Java Programming for IoT, AI, and
+Blockchain"
+447,Russel Nurton,82.11,46.06,30.92,27.03,30.67,Speech,64,Cities and Public Policy : An Urban Agenda for India,Python Machine Learning
+448,Ciara Exton,52.21,37.79,42.64,36.62,34.89,Ecology,61,,"Research Advances in the Integration of Big
+Data and Smart Computing"
+449,Jacob Gilmour,61.9,55.46,73.46,34.99,20.6,History,29,"Contemporary Practices of Mahatma Gandhi National
+Rural Employment Guarantee Scheme : Insights from
+Districts",Schaum’s Outline of Computer Graphics
+450,Penny Ward,20.19,49.02,31.3,40.48,40.87,Spanish,84,"Contemporary Topics in Finance - A Collection of Literature
+Surveys","Schaum’s Outline of Fundamentals of SQL
+Programming"
+451,Maya Stevenson,56.67,47.73,59.98,35.54,43.2,Art,56,"Corporate Reputation and Social Activism : Strategic
+Interaction, Firm Behavior, and Social Welfare","Schaum's Easy Outlines: Programming With
+Java"
+452,Meredith Rixon,33.76,45.65,43.55,39.4,26.48,History,47,Creative Globalization,Schaum's Easy Outlines: XML
+453,Leanne Rogan,25.87,47.94,84.14,35.33,20.52,Geography,79,"Dainik Jeevan Mein Arthshastra : Vikas Ke Kshetra Me
+Karyrat Peshevaron Ke Liye Saral Margdarshika",Schaum's Outline of Computer Architecture
+454,Marjorie Connell,38.42,21.25,74.19,31.05,28.24,French,46,Dalits in Modern India : Vision and Values,"Schaum's Outline Of Fundamentals Of
+Relational Databases"
+455,Ron Lyon,47.09,42.47,59.32,35.05,35.03,Design and technology,76,"Decentralization, Forests and Rural Communities : Policy
+Outcomes in Southeast Asia","Schaum's Outline of Principles of Computer
+Science"
+456,Liv Kerr,70.01,47.94,26.13,28.85,30.01,Basic Math,24,"Democratizing Development :
+Social Justice in India",Schaum's Outline of Visual Basic
+457,Judith Hastings,57.33,40.94,54.33,46.94,21.61,Instrumental Music,30,Demonetisation : A means to an End?,"Semantic-Based Visual Information
+Retrieval"
+458,Gabriel Jenkins,74.01,35.38,36.41,32.32,36.58,Latin,67,Development and Distribution,Software Evolution with UML and XML
+459,Kieth Simpson,65.46,27.29,55.43,36.31,35.99,Design and technology,75,"Development Under Stress : Sri Lankan Economy in
+Transition","The Nine Old Men: Lessons, Techniques,
+and Inspiration from Disney's Great
+Animators"
+460,Eduardo Rigg,86.97,25.83,32.92,26.43,37.93,Geography,30,Developmentalism as Strategy,"Verification, Validation and Testing in
+Software Engineering"
+461,Hanna Durrant,66.84,67.92,46.38,31.59,31.53,Accounting,75,"Diminishing Returns at Work : The Consequences of Long
+Working Hours",Title
+462,Carina Osmond,47.32,41.52,54.52,33.69,31.13,Physical Education,80,Econometric Analysis: International Edition,"Advanced Applications and Structures in
+XML Processing: Label Streams, Semantics
+Utilization and Data Query Technologies"
+463,Camellia Bullock,73.23,30.05,70.29,39.77,20.01,Basic Math,57,Economic Democracy through Pro Poor Growth,"Advances in Machine Learning Applications
+in Software Engineering"
+464,Erica Franks,55.59,25.52,39.59,25.37,32.55,Latin,48,"Economic Growth with Social Justice : Collected Writings of
+Mahbub ul Haq","Advances in UML and XML-Based Software
+Evolution"
+465,Hayden Williams,46.86,43.26,82.06,43.22,27.67,LOGIC,38,"Economic Reforms in India and China : Emerging Issues and
+Challenges",An Introduction to Machine Learning
+466,Denis Fleming,41.44,28.91,25.98,28.87,20.91,LOGIC,46,"Economics in Action : An Easy Guide for Development
+Practitioners","Artificial Intelligence Applications for
+Improved Software Engineering
+Development: New Prospects"
+467,Maxwell Ashwell,71.66,24.53,52.66,34.15,32.07,Speech,33,Embodying Integral Development : A Holistic Approach,"Bayesian Network Technologies:
+Applications and Graphical Models"
+468,Eden Dyson,39.44,50.81,73.4,26.04,29.05,German,45,Title,"Behavior Trees in Robotics and AI : An
+Introduction"
+469,Erick Nelson,77.58,39.02,80.42,35.65,34.35,Art,39,"A Concise Handbook of the Indian Economy in the 21st
+Century",Big Data : A Tutorial-Based Approach
+470,Sonya Mcnally,83.12,32.56,51.87,38.58,26.04,American Literature,42,"A Population History of India : From the First Modern
+People to the Present Day","Cryptography Apocalypse - Preparing for
+the Day When Quantum Computing Breaks
+Today's Crypto Edition 1"
+471,Noemi Knight,40.04,36.55,79.88,32.93,36.63,Dramatics,38,A Research on China’s Economic Growth Potential,"Deep Learning in Natural Language
+Processing"
+472,Alexander Kelly,79.3,60.57,36.89,27.25,39.62,Economics,54,Agriculture in Developing Countries : Technology Issues,"Diagnostic Test Approaches to Machine
+Learning and Commonsense Reasoning
+Systems"
+473,Emma Oldfield,41.36,62.07,30.76,33.54,44.42,Basic Math,71,An Introduction to Econometric Theory,"Digital Image Watermarking : Theoretical
+and Computational Advances"
+474,Manuel Roberts,51.63,66.27,27.96,41.97,25.56,Trigonometry,40,"Analysing Social Opposition to Reforms : The Electricity
+Sector in India",E-Book Fortan For Scientist & Engineering
+475,Harry Nurton,37.73,24.92,86.06,39.3,38.51,Modern Literature,64,Analytical Political Economy,"Emerging Research on Applied Fuzzy Sets
+and Intuitionistic Fuzzy Matrices"
+476,Alessandra Curtis,41.41,32.82,27.12,43.15,36.19,Spanish,52,"Arthik Sudhar aur Samajik Apvarjan : Bhaarat Mein
+Upekshit Samuhon Par Udareekaran Ka Prabhav","Essential Algorithms - A Practical Approach
+to Computer Algorithms Using Python and
+C# P 2E"
+477,Kaylee Jenkin,30.32,41.64,35.32,31.26,28.4,Mathematics,71,Ascent and Decline of Native and Colonial Trading,Exploratory Data Analysis Using R
+478,Mina Reynolds,81.46,30.96,69.39,40.8,27.8,Ancient Civilizations,77,"Banking and Finance: Theory, Law & Practice","Exploring Arduino - Tools and Techniques
+for Engineering Wizardry"
+479,Lexi Uttley,25.89,21,58.27,28.43,21.41,Design and technology,20,"Beyond Gandhian Economics : Towards a Creative
+Deconstruction","Information Technology : Theory and
+Practice"
+480,Rosalie Quinton,24.85,40.25,72.65,31.19,44.95,History,36,"Beyond Relocation : The Imperative of Sustainable
+Resettlement","Keras to Kubernetes - The Journey Of A
+Machine Learning Model To Production"
+481,Julius Gilmore,20.66,31.69,29.18,29.45,29.39,Music,29,Bharat 2050 : Sthayi Samriddhi ki Yojana,"Multimodal Biometrics and Intelligent
+Image Processing for Security Systems"
+482,Marie Ellison,47.81,22.74,47.62,41.46,29.15,Language Arts,54,Bharat ki Videsh Neeti : Chunauti aur Ranneeti,Networking Fundamentals
+483,Judith Oatway,83.07,55.37,61.79,34.39,24.21,LOGIC,54,"Bhartiya Arthavyavsthechi Sankramanavastha : C.T.
+kuriyen yanchya sanmanaarth nibandh","Neural Networks and Deep Learning: A
+Textbook"
+484,Candace Parker,52.04,66.63,65.8,42.17,42.52,Instrumental Music,57,"Bhartiya Arthvyawastha ka Sankaraman Kaal : C T Kurian ke
+Samman mein Nibandh Sankalan","Practical Java Programming for IoT, AI, and
+Blockchain"
+485,Miriam Lloyd,40.09,66.48,46.28,37.3,36.9,French,27,Business Interests and the Environmental Crisis,Python Machine Learning
+486,Robyn Benson,63.83,61.5,72.1,47.32,24.1,Latin,61,"Capital Market Reform in Asia : Towards Developed and
+Integrated Markets in Times of Change","Research Advances in the Integration of Big
+Data and Smart Computing"
+487,Percy Dixon,32.21,47.5,35.87,27.08,26.39,Ecology,42,"Cash, Corruption and Economic Development",Schaum’s Outline of Computer Graphics
+488,Dasha Dickson,46.07,24.43,73.77,37.07,36.3,Basic Math,81,"Caste-Based Reservations and Human Development in
+India","Schaum’s Outline of Fundamentals of SQL
+Programming"
+489,Benny Cassidy,82.87,45.3,35.79,27.45,28.03,Modern Literature,75,"Employment and Labour Market in Northeast India:
+Interrogating Structural Changes","Schaum's Easy Outlines: Programming With
+Java"
+490,Celia Robinson,60.48,67.16,25.81,46.11,44.53,Music,42,"Employment and Unemployment in India : Emerging
+Tendencies During the Post-Reform Period",Schaum's Easy Outlines: XML
+491,Barry Barrett,58.28,28.64,44.12,28.38,41.21,Physical Education,81,"Environment and Development : Essays in Honour of Dr U.
+Sankar",Schaum's Outline of Computer Architecture
+492,Robyn Wilson,71.07,38.58,79.97,36.18,27.17,Ecology,75,Environment and Fiscal Reforms in India,"Schaum's Outline Of Fundamentals Of
+Relational Databases"
+493,Rosalie Graham,80,20.82,62.02,45.04,41.4,LOGIC,48,"Environmental Accounting, Sustainability and
+Accountability","Schaum's Outline of Principles of Computer
+Science"
+494,Molly Goldsmith,62.77,54.72,74,33.93,23.71,Ecology,64,Environmental Economics and Sustainability,Schaum's Outline of Visual Basic
+495,Chloe Ashley,86.01,26.56,30.36,36.86,25.61,Accounting,54,Essential Mathematics for Economic Analysis,"Semantic-Based Visual Information
+Retrieval"
+496,Bart Haines,35.98,54.06,62.28,37.54,31.79,Art,27,Evolution of Banking System in India since 1900,Software Evolution with UML and XML
+497,Chad Miller,78.3,35.34,50.52,26.84,26.3,Accounting,31,"Finance and Financial Intermediation : A Modern
+Treatment of Money, Credit, and Banking","The Nine Old Men: Lessons, Techniques,
+and Inspiration from Disney's Great
+Animators"
+498,Tess Kennedy,59.11,67.74,86.66,41.17,44.42,Speech,78,"Financial Intermediation in a Less Developed Economy :
+The History of the United Bank of India
+Financing Cities : Fiscal Responsibility and Urban","Verification, Validation and Testing in
+Software Engineering"
+499,Harvey Poole,59.34,47.04,84.56,25.9,27.38,Trigonometry,77,"Infrastructure in Brazil, China, India, Poland and SouthAfrica","Infrastructure in Brazil, China, India, Poland and Southafrica"
+500,Martin Ranks,69.42,36.55,62.81,47.33,39.25,Geography,80,"Fiscal Consolidation, Budget Deficits and the Macro
+Economy",Schaum's Easy Outlines: Programming With java

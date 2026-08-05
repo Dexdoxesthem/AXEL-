@@ -1,0 +1,5 @@
+# For the Dash app:  python dashdashboard_app.py
+-r requirements.txt
+dash==2.18.2
+dash-bootstrap-components==1.6.0
+plotly==5.24.1

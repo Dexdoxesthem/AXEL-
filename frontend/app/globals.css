@@ -1,0 +1,605 @@
+/* ============================================================================
+   AXEL — Dell 1996 design language
+   Tokens lifted from DESIGN-dell-1996.md. Hard edges, flat tints, no shadows.
+   ============================================================================ */
+
+:root {
+  /* Core palette */
+  --primary: #e91d2a;
+  --on-primary: #ffffff;
+  --canvas: #ffffff;
+  --ink: #000000;
+  --frame-ink: #000000;
+  --yellow: #fcc20f;
+  --purple: #6a26a4;
+  --link: #0000ee;
+  --visited: #551a8b;
+
+  /* Ribbon tints */
+  --tint-olive: #8e8a25;
+  --tint-sage: #b3bd95;
+  --tint-salmon: #d77a7a;
+  --tint-peach: #e6915d;
+  --tint-lime: #c0d4a7;
+  --tint-sky: #9ab6c8;
+  --tint-steel: #a5b8c0;
+  --tint-periwinkle: #8c9ae0;
+
+  /* Typography */
+  --font-display: "Arial Black", "Arial Bold", Arial, Helvetica, sans-serif;
+  --font-head: Helvetica, Arial, sans-serif;
+  --font-body: "Times New Roman", Times, serif;
+
+  /* Radii: only seals are round */
+  --r-none: 0;
+  --r-full: 9999px;
+
+  /* Frame */
+  --frame-width: 8px;
+  --content-max: 1060px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--frame-ink);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--link);
+}
+
+a:visited {
+  color: var(--visited);
+}
+
+/* ---------------------------------------------------------------------------
+   Page frame — 8px black border around the whole viewport.
+   --------------------------------------------------------------------------- */
+.page-frame {
+  background: var(--canvas);
+  border: var(--frame-width) solid var(--frame-ink);
+  min-height: calc(100vh - var(--frame-width) * 2);
+  max-width: var(--content-max);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-body {
+  flex: 1;
+  width: 100%;
+  padding: 16px;
+}
+
+/* ---------------------------------------------------------------------------
+   Top banner — black strip, white type, red phone callout.
+   --------------------------------------------------------------------------- */
+.top-banner {
+  background: var(--frame-ink);
+  color: #ffffff;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  border-bottom: 4px solid var(--yellow);
+}
+
+.top-banner .banner-title {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.top-banner .banner-sub {
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: #d8d8d8;
+  margin: 2px 0 0;
+}
+
+.top-banner .banner-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Red phone callout — primary red is reserved for CTA + phone only. */
+.phone-callout {
+  background: var(--primary);
+  color: var(--on-primary);
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  padding: 6px 10px;
+  border: 1px solid var(--primary);
+  white-space: nowrap;
+}
+
+/* ---------------------------------------------------------------------------
+   Section eyebrows — Arial Black display strips on tint fills.
+   --------------------------------------------------------------------------- */
+.eyebrow {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.0;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding: 10px 14px;
+  margin: 0 0 10px;
+  border: 1px solid var(--ink);
+}
+
+.eyebrow--sm {
+  font-size: 15px;
+  padding: 7px 10px;
+}
+
+.eyebrow--olive { background: var(--tint-olive); }
+.eyebrow--sage { background: var(--tint-sage); }
+.eyebrow--salmon { background: var(--tint-salmon); }
+.eyebrow--peach { background: var(--tint-peach); }
+.eyebrow--lime { background: var(--tint-lime); }
+.eyebrow--sky { background: var(--tint-sky); }
+.eyebrow--steel { background: var(--tint-steel); }
+.eyebrow--periwinkle { background: var(--tint-periwinkle); }
+
+/* ---------------------------------------------------------------------------
+   Ribbon cards — white title bar over a tinted body, 1px black border.
+   --------------------------------------------------------------------------- */
+.ribbon {
+  border: 1px solid var(--ink);
+  margin: 0 0 14px;
+  background: var(--canvas);
+}
+
+.ribbon__title {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: #ffffff;
+  color: var(--ink);
+  border-bottom: 1px solid var(--ink);
+  padding: 7px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.ribbon__body {
+  padding: 12px 14px;
+  font-family: var(--font-body);
+  font-size: 14px;
+}
+
+.ribbon__body--olive { background: var(--tint-olive); }
+.ribbon__body--sage { background: var(--tint-sage); }
+.ribbon__body--salmon { background: var(--tint-salmon); }
+.ribbon__body--peach { background: var(--tint-peach); }
+.ribbon__body--lime { background: var(--tint-lime); }
+.ribbon__body--sky { background: var(--tint-sky); }
+.ribbon__body--steel { background: var(--tint-steel); }
+.ribbon__body--periwinkle { background: var(--tint-periwinkle); }
+
+/* ---------------------------------------------------------------------------
+   Bevel — hard 2px black drop shadow (the 1996 "photo" edge), no blur.
+   --------------------------------------------------------------------------- */
+.bevel {
+  border: 1px solid var(--ink);
+  filter: drop-shadow(2px 2px 0 #000);
+}
+
+/* ---------------------------------------------------------------------------
+   Stickers — hand-cut paper look, absolute-positioned by the parent.
+   --------------------------------------------------------------------------- */
+.sticker {
+  position: absolute;
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  z-index: 5;
+}
+
+.sticker--new {
+  background: var(--yellow);
+  color: var(--ink);
+  font-size: 11px;
+  padding: 5px 8px;
+  border: 1px solid var(--ink);
+  transform: rotate(-8deg);
+  transform-origin: center;
+}
+
+.sticker--buy {
+  background: var(--yellow);
+  color: var(--ink);
+  font-size: 12px;
+  padding: 5px 9px;
+  border: 1px solid var(--ink);
+  transform: rotate(3deg);
+}
+
+.sticker--buy .sticker-a {
+  background: var(--purple);
+  color: #ffffff;
+  display: inline-block;
+  padding: 0 2px;
+  margin: 0 1px;
+}
+
+.sticker--atrisk {
+  background: var(--primary);
+  color: var(--on-primary);
+  font-size: 12px;
+  padding: 6px 10px;
+  border: 1px solid var(--ink);
+}
+
+.sticker--ontrack {
+  background: var(--tint-lime);
+  color: var(--ink);
+  font-size: 12px;
+  padding: 6px 10px;
+  border: 1px solid var(--ink);
+}
+
+/* Cert seal — the only fully-round element. */
+.cert-seal {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  border-radius: var(--r-full);
+  background: var(--primary);
+  color: var(--on-primary);
+  border: 3px double #ffffff;
+  outline: 1px solid var(--primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  z-index: 6;
+  transform: rotate(12deg);
+}
+
+.cert-seal .seal-ax {
+  font-size: 13px;
+}
+
+.seal--corner {
+  top: -26px;
+  right: -26px;
+}
+
+.atrisk-burst {
+  top: 4px;
+  right: 6px;
+}
+
+/* ---------------------------------------------------------------------------
+   Red CTA block.
+   --------------------------------------------------------------------------- */
+.cta-red {
+  background: var(--primary);
+  color: var(--on-primary);
+  border: 1px solid var(--ink);
+  padding: 16px 18px;
+  font-family: var(--font-body);
+  font-size: 15px;
+}
+
+.cta-red h3 {
+  font-family: var(--font-display);
+  font-size: 18px;
+  line-height: 1.05;
+  margin: 0 0 8px;
+  color: var(--on-primary);
+}
+
+.cta-red a {
+  color: var(--on-primary);
+}
+
+.cta-red a:visited {
+  color: var(--on-primary);
+}
+
+/* ---------------------------------------------------------------------------
+   Buttons — hard flat squares, no hover.
+   --------------------------------------------------------------------------- */
+.btn {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: var(--r-none);
+  padding: 9px 16px;
+  cursor: pointer;
+  border: 1px solid var(--ink);
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+}
+
+.btn--primary {
+  background: var(--frame-ink);
+  color: #ffffff;
+}
+
+.btn--primary:visited {
+  color: #ffffff;
+}
+
+.btn--secondary {
+  background: #ffffff;
+  color: var(--ink);
+}
+
+.btn--secondary:visited {
+  color: var(--ink);
+}
+
+.btn--link {
+  background: transparent;
+  color: var(--link);
+  border: none;
+  padding: 0;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn--link:visited {
+  color: var(--link);
+}
+
+/* ---------------------------------------------------------------------------
+   Forms — 1996 text input.
+   --------------------------------------------------------------------------- */
+.text-input {
+  font-family: var(--font-head);
+  font-size: 14px;
+  border: 1px solid var(--ink);
+  border-radius: var(--r-none);
+  padding: 8px 10px;
+  background: #ffffff;
+  color: var(--ink);
+  width: 100%;
+}
+
+select.text-input {
+  height: auto;
+}
+
+/* ---------------------------------------------------------------------------
+   Layout helpers
+   --------------------------------------------------------------------------- */
+.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.cols--3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cols--rail {
+  display: grid;
+  grid-template-columns: 28% 1fr;
+  gap: 14px;
+  align-items: start;
+}
+
+@media (max-width: 760px) {
+  .cols,
+  .cols--3,
+  .cols--rail {
+    grid-template-columns: 1fr;
+  }
+  .page-frame {
+    border-width: 4px;
+    min-height: calc(100vh - 8px);
+  }
+}
+
+@media (max-width: 480px) {
+  .page-frame {
+    border-width: 2px;
+    min-height: calc(100vh - 4px);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Data table — Dell ex-data-cell aesthetic.
+   --------------------------------------------------------------------------- */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-body);
+  font-size: 13px;
+}
+
+.data-table th {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: left;
+  background: var(--ink);
+  color: #ffffff;
+  border: 1px solid var(--ink);
+  padding: 5px 8px;
+}
+
+.data-table td {
+  border: 1px solid var(--ink);
+  padding: 5px 8px;
+}
+
+.data-table tr:nth-child(odd) td {
+  background: var(--tint-steel);
+}
+
+.data-table tr:nth-child(even) td {
+  background: #ffffff;
+}
+
+/* ---------------------------------------------------------------------------
+   Status chips
+   --------------------------------------------------------------------------- */
+.chip {
+  display: inline-block;
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border: 1px solid var(--ink);
+}
+
+.chip--red { background: var(--primary); color: var(--on-primary); }
+.chip--lime { background: var(--tint-lime); color: var(--ink); }
+.chip--yellow { background: var(--yellow); color: var(--ink); }
+.chip--sky { background: var(--tint-sky); color: var(--ink); }
+
+/* ---------------------------------------------------------------------------
+   Icon link nav (footer / rail).
+   --------------------------------------------------------------------------- */
+.icon-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  padding: 7px 9px;
+  background: var(--canvas);
+}
+
+.icon-link:hover {
+  text-decoration: underline;
+}
+
+.icon-box {
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--ink);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 900;
+  background: var(--tint-sage);
+}
+
+.icon-box--sky { background: var(--tint-sky); }
+.icon-box--peach { background: var(--tint-peach); }
+.icon-box--lime { background: var(--tint-lime); }
+
+/* Footer band */
+.footer-band {
+  background: var(--frame-ink);
+  color: #ffffff;
+  border-top: 4px solid var(--yellow);
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-family: var(--font-body);
+  font-size: 12px;
+}
+
+.footer-band .icon-links {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.footer-band .icon-link {
+  background: #ffffff;
+  color: var(--ink);
+}
+
+.footer-band .icon-link:visited {
+  color: var(--ink);
+}
+
+.footer-band .icon-link .icon-box {
+  background: var(--tint-sky);
+}
+
+/* Auth card */
+.auth-card {
+  max-width: 420px;
+  margin: 48px auto;
+}
+
+.auth-card .ribbon__body {
+  padding: 20px;
+}
+
+/* Chart bevel frames */
+.chart-frame {
+  background: #ffffff;
+  padding: 10px;
+}
+
+.chart-frame svg text {
+  font-family: var(--font-body);
+  font-size: 12px;
+}
+
+/* Small caps helper */
+.caps {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.muted {
+  color: #444444;
+}

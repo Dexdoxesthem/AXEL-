@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXEL - Cohort Analytics</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            min-height: 100vh;
+        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 28px 20px; }
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 14px;
+            padding: 22px 28px;
+            margin-bottom: 16px;
+        }
+        h1 { font-size: 24px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 14px 0; }
+        .stat { background: rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 12px; text-align: center; }
+        .stat .value { font-size: 22px; font-weight: 700; }
+        .stat .label { font-size: 12px; color: #cfd8dc; }
+        .nav a { color: #ffb74d; text-decoration: none; font-weight: 600; margin-right: 14px; }
+        table { border-collapse: collapse; width: 100%; }
+        table th, table td { border: 1px solid rgba(255,255,255,0.2); padding: 8px; text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="nav">
+                <a href="/">Dashboard</a>
+                <a href="/analytics">Analytics</a>
+                <a href="/compare">Compare</a>
+                <a href="/export">Download dataset</a>
+                <a href="/logout">Logout</a>
+            </div>
+            <h1>&#128200; Cohort Analytics</h1>
+            <div class="grid">
+                <div class="stat"><div class="value">{{ metrics.students }}</div><div class="label">Students</div></div>
+                <div class="stat"><div class="value">{{ metrics.risk_classes.get(true, 0) }}</div><div class="label">At risk</div></div>
+                <div class="stat"><div class="value">{{ metrics.risk_classes.get(false, 0) }}</div><div class="label">On track</div></div>
+                <div class="stat"><div class="value">{{ metrics.cluster_k }}</div><div class="label">Study clusters</div></div>
+            </div>
+        </div>
+
+        <div class="card"><h3>GPA distribution</h3>{{ gpa_hist_html | safe }}</div>
+        <div class="card"><h3>Attendance distribution</h3>{{ attendance_hist_html | safe }}</div>
+        <div class="card"><h3>Class average per subject</h3>{{ subject_bar_html | safe }}</div>
+        <div class="card"><h3>At-risk vs on-track</h3>{{ donut_html | safe }}</div>
+
+        <div class="card">
+            <h3>Top 10 students by GPA</h3>
+            {{ top10 | safe }}
+        </div>
+    </div>
+</body>
+</html>
